@@ -1,0 +1,44 @@
+{
+    "comments": {
+        "date": "2019-11-24",
+        "description": "Legislación relacionada con la informática (educación, etc.)"
+    },
+    "legislacion" : [
+        {
+            "id": "boe-rd-2008-1691",
+            "descripción": "Decreto del Título de SMR",
+            "titulo": "REAL DECRETO 1691/2007, de 14 de diciembre, por el que se establece el título de Técnico en Sistemas Microinformáticos y Redes y se fijan sus enseñanzas mínimas.",
+            "fichero": ["boe/BOE-2007-1691-RD-FP-SMR-titulo.pdf"],
+            "publicación": ["BOE", "2008-11-17"],
+            "estado": "vigente",
+            "claves" : ["educación", "currículo", "formación profesional", "grado medio"]
+        },
+        {
+            "id": "boe-rd-2009-1629",
+            "descripción": "Decreto del Título de ASIR",
+            "titulo": "Real Decreto 1629/2009, de 30 de octubre, por el que se establece el título de Técnico Superior en Administración de Sistemas Informáticos en Red y se fijan sus enseñanzas mínimas.",
+            "fichero": ["boe/BOE-2009-1629-RD-FP-ASIR-titulo.pdf"],
+            "publicación": ["BOE", "2009-11-18"],
+            "estado": "vigente",
+            "claves" : ["educación", "currículo", "formación profesional", "grado superior"]
+        },
+        {
+            "id": "boe-rd-2010-450",
+            "descripción": "Decreto del Título de DAM",
+            "titulo": "Real Decreto 450/2010, de 16 de abril, por el que se establece el título de Técnico Superior en Desarrollo de Aplicaciones Multiplataforma y se fijan sus enseñanzas mínimas.",
+            "fichero": ["boe/BOE-2010-450-RD-FP-DAM-titulo.pdf"],
+            "publicación": ["BOE", "2010-05-20"],
+            "estado": "vigente",
+            "claves" : ["educación", "currículo", "formación profesional", "grado superior"]
+        },
+        {
+            "id": "boe-rd-2010-686",
+            "descripción": "Decreto del Título de DAW",
+            "titulo": "Real Decreto 686/2010, de 20 de mayo, por el que se establece el título de Técnico Superior en Desarrollo de Aplicaciones Web y se fijan sus enseñanzas mínimas.",
+            "fichero": ["boe/BOE-2010-686-RD-FP-DAW-titulo.pdf"],
+            "publicación": ["BOE", "2010-06-12"],
+            "estado": "vigente",
+            "claves" : ["educación", "currículo", "formación profesional", "grado superior"]
+        }
+    ]
+}
