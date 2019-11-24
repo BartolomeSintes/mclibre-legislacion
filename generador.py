@@ -1,9 +1,9 @@
-import json, pathlib, shutil
+import json, pathlib
 from datetime import date
 
 
 JSON_FILE = "legislacion.json"
-DIR_SITE = "site"
+DIR_SITE = "docs"
 DIR_FILES = "files"
 INDEX_FILE = "index.html"
 MES = [
@@ -32,6 +32,7 @@ def fecha_a_texto(numero):
         + str(numero[0:4])
     )
 
+
 def main():
     # Carga json
     with open(JSON_FILE, encoding="utf-8") as file:
@@ -46,10 +47,10 @@ def main():
     t += '  <meta charset="utf-8">\n'
     t += f"  <title>Legislación relacionada con la informática</title>\n"
     t += '  <meta name="viewport" content="width=device-width, initial-scale=1.0">\n'
-    t += "  <style>\n";
-    t += "    html { font-family: sans-serif; font-size: 120%; }\n";
-    t += "    li { margin-bottom: 20px; }\n";
-    t += "    footer { border-top: black 1px solid; padding-top: 5px;}\n";
+    t += "  <style>\n"
+    t += "    html { font-family: sans-serif; font-size: 120%; }\n"
+    t += "    li { margin-bottom: 20px; }\n"
+    t += "    footer { border-top: black 1px solid; padding-top: 5px;}\n"
     t += "  </style>\n"
     t += "</head>\n"
     t += "\n"
@@ -71,7 +72,7 @@ def main():
         t += "    </li>\n"
     t += "  </ul>\n"
     t += "\n"
-    t += '  <footer>\n'
+    t += "  <footer>\n"
     t += f"    Última modificación de esta página: {fecha_a_texto(str(date.today()))}\n"
     t += "  </footer>\n"
     t += "</body>\n"
