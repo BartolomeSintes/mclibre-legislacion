@@ -104,25 +104,6 @@
             ]
         },
         {
-            "id": "boe-rd-2008-1691",
-            "descripción": "Decreto del Título de SMR",
-            "titulo": "Real Decreto 1691/2007, de 14 de diciembre, por el que se establece el título de Técnico en Sistemas Microinformáticos y Redes y se fijan sus enseñanzas mínimas.",
-            "fichero": [
-                "boe/BOE-2007-1691-RD-FP-SMR-titulo.pdf"
-            ],
-            "publicación": [
-                "BOE",
-                "2008-11-17"
-            ],
-            "estado": "vigente",
-            "claves": [
-                "educación",
-                "currículo",
-                "formación profesional",
-                "grado medio"
-            ]
-        },
-        {
             "id": "boe-rd-2009-1629",
             "descripción": "Decreto del Título de ASIR",
             "titulo": "Real Decreto 1629/2009, de 30 de octubre, por el que se establece el título de Técnico Superior en Administración de Sistemas Informáticos en Red y se fijan sus enseñanzas mínimas.",
