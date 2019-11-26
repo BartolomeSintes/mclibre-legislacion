@@ -3,6 +3,7 @@ from datetime import date
 
 
 JSON_FILE = "legislacion.json"
+DEROGADO = "derogado"
 DIR_SITE = "docs"
 DIR_FILES = "files"
 INDEX_FILE = "index.html"
@@ -45,17 +46,18 @@ def main():
     t += '<html lang="es">\n'
     t += "<head>\n"
     t += '  <meta charset="utf-8">\n'
-    t += f"  <title>Legislación relacionada con la informática</title>\n"
+    t += f"  <title>Legislación de interés para profesores de Informática</title>\n"
     t += '  <meta name="viewport" content="width=device-width, initial-scale=1.0">\n'
     t += "  <style>\n"
-    t += "    html { font-family: sans-serif; font-size: 120%; }\n"
+    t += "    html { font-family: sans-serif; font-size: 110%; }\n"
     t += "    li { margin-bottom: 20px; }\n"
     t += "    footer { border-top: black 1px solid; padding-top: 5px;}\n"
+    t += "    .derogado { color: red; text-transform: uppercase;}\n"
     t += "  </style>\n"
     t += "</head>\n"
     t += "\n"
     t += "<body>\n"
-    t += f"  <h1>Legislación relacionada con la informática</h1>\n"
+    t += f"  <h1>Legislación de interés para profesores de informática</h1>\n"
 
     t += "  <ul>\n"
 
@@ -63,7 +65,10 @@ def main():
         t += "    <li>\n"
         t += f'      <strong>{elemento["descripción"]}</strong><br>\n'
         t += f'      {elemento["titulo"]}<br>\n'
-        t += f'      Publicado en {elemento["publicación"][0]} en {elemento["publicación"][1]}<br>\n'
+        t += f'      Publicado en {elemento["publicación"][0]} en {elemento["publicación"][1]}'
+        if elemento["estado"] == DEROGADO:
+            t += f' <span class="derogado">derogado</span>'
+        t += "<br>\n"
         for fichero in elemento["fichero"]:
             file = pathlib.Path(f"{DIR_SITE}/{DIR_FILES}/{fichero}")
             weight = str(round(file.stat().st_size / 1024 / 1024, 1)) + " MB)"
