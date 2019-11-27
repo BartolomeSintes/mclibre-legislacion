@@ -5,12 +5,113 @@
     },
     "legislacion": [
         {
+            "id": "boe-rd-2008-1691",
+            "incluido": "2019-11-24",
+            "descripción": "Decreto del Título de SMR",
+            "titulo": "Real Decreto 1691/2007, de 14 de diciembre, por el que se establece el título de Técnico en Sistemas Microinformáticos y Redes y se fijan sus enseñanzas mínimas.",
+            "fichero": [
+                "boe/BOE-2007-1691-RD-FP-SMR-titulo.pdf"
+            ],
+            "web": [
+                "https://www.boe.es/eli/es/rd/2007/12/14/1691"
+            ],
+            "publicación": [
+                "BOE",
+                "2008-11-17"
+            ],
+            "ámbito": "España",
+            "estado": "vigente",
+            "claves": [
+                "educación",
+                "currículo",
+                "formación profesional",
+                "grado medio"
+            ]
+        },
+        {
+            "id": "boe-rd-2009-1629",
+            "incluido": "2019-11-24",
+            "descripción": "Decreto del Título de ASIR",
+            "titulo": "Real Decreto 1629/2009, de 30 de octubre, por el que se establece el título de Técnico Superior en Administración de Sistemas Informáticos en Red y se fijan sus enseñanzas mínimas.",
+            "fichero": [
+                "boe/BOE-2009-1629-RD-FP-ASIR-titulo.pdf"
+            ],
+            "web": [
+                "https://www.boe.es/eli/es/rd/2009/10/30/1629"
+            ],
+            "ámbito": "España",
+            "publicación": [
+                "BOE",
+                "2009-11-18"
+            ],
+            "estado": "vigente",
+            "claves": [
+                "educación",
+                "currículo",
+                "formación profesional",
+                "grado superior"
+            ]
+        },
+        {
+            "id": "boe-rd-2010-450",
+            "incluido": "2019-11-24",
+            "descripción": "Decreto del Título de DAM",
+            "titulo": "Real Decreto 450/2010, de 16 de abril, por el que se establece el título de Técnico Superior en Desarrollo de Aplicaciones Multiplataforma y se fijan sus enseñanzas mínimas.",
+            "fichero": [
+                "boe/BOE-2010-450-RD-FP-DAM-titulo.pdf"
+            ],
+            "web": [
+                "https://www.boe.es/eli/es/rd/2010/04/16/450"
+            ],
+            "ámbito": "España",
+            "publicación": [
+                "BOE",
+                "2010-05-20"
+            ],
+            "estado": "vigente",
+            "claves": [
+                "educación",
+                "currículo",
+                "formación profesional",
+                "grado superior"
+            ]
+        },
+        {
+            "id": "boe-rd-2010-686",
+            "incluido": "2019-11-24",
+            "descripción": "Decreto del Título de DAW",
+            "titulo": "Real Decreto 686/2010, de 20 de mayo, por el que se establece el título de Técnico Superior en Desarrollo de Aplicaciones Web y se fijan sus enseñanzas mínimas.",
+            "fichero": [
+                "boe/BOE-2010-686-RD-FP-DAW-titulo.pdf"
+            ],
+            "web": [
+                "https://www.boe.es/eli/es/o/2010/11/02/edu2887"
+            ],
+            "ámbito": "España",
+            "publicación": [
+                "BOE",
+                "2010-06-12"
+            ],
+            "estado": "vigente",
+            "claves": [
+                "educación",
+                "currículo",
+                "formación profesional",
+                "grado superior"
+            ]
+        },
+        {
             "id": "boe-1990-1-l",
+            "incluido": "2019-11-26",
             "descripción": "LOGSE",
             "titulo": "Ley orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo",
             "fichero": [
                 "boe/BOE-1990-1-L-LOGSE.pdf"
             ],
+            "web": [
+                "https://www.boe.es/eli/es/lo/1990/10/03/1"
+            ],
+            "ámbito": "España",
             "publicación": [
                 "BOE",
                 "1990-10-04"
@@ -26,11 +127,16 @@
         },
         {
             "id": "boe-1995-9-l",
+            "incluido": "2019-11-26",
             "descripción": "LOPEG",
             "titulo": "Ley orgánica 9/1995, de 20 de noviembre, de la participación, la evaluación y el gobierno de los centros docentes",
             "fichero": [
                 "boe/BOE-1995-9-L-LOPEG.pdf"
             ],
+            "web": [
+                "https://www.boe.es/eli/es/lo/1995/11/20/9"
+            ],
+            "ámbito": "España",
             "publicación": [
                 "BOE",
                 "1995-11-21"
@@ -46,11 +152,16 @@
         },
         {
             "id": "boe-2002-10-l",
+            "incluido": "2019-11-26",
             "descripción": "LOCE",
             "titulo": "Ley orgánica 10/2002, de 23 de diciembre, de Calidad de la Educación.",
             "fichero": [
                 "boe/BOE-2002-10-L-LOCE.pdf"
             ],
+            "web": [
+                "https://www.boe.es/eli/es/lo/2002/12/23/10"
+            ],
+            "ámbito": "España",
             "publicación": [
                 "BOE",
                 "2002-12-24"
@@ -66,11 +177,16 @@
         },
         {
             "id": "boe-2006-2-l",
+            "incluido": "2019-11-26",
             "descripción": "LOE",
             "titulo": "Ley orgánica 2/2006, de 3 de mayo, de Educación.",
             "fichero": [
                 "boe/BOE-2006-2-L-LOE.pdf"
             ],
+            "web": [
+                "https://www.boe.es/eli/es/lo/2006/05/03/2/con"
+            ],
+            "ámbito": "España",
             "publicación": [
                 "BOE",
                 "2006-05-04"
@@ -85,88 +201,17 @@
             ]
         },
         {
-            "id": "boe-rd-2008-1691",
-            "descripción": "Decreto del Título de SMR",
-            "titulo": "Real Decreto 1691/2007, de 14 de diciembre, por el que se establece el título de Técnico en Sistemas Microinformáticos y Redes y se fijan sus enseñanzas mínimas.",
-            "fichero": [
-                "boe/BOE-2007-1691-RD-FP-SMR-titulo.pdf"
-            ],
-            "publicación": [
-                "BOE",
-                "2008-11-17"
-            ],
-            "estado": "vigente",
-            "claves": [
-                "educación",
-                "currículo",
-                "formación profesional",
-                "grado medio"
-            ]
-        },
-        {
-            "id": "boe-rd-2009-1629",
-            "descripción": "Decreto del Título de ASIR",
-            "titulo": "Real Decreto 1629/2009, de 30 de octubre, por el que se establece el título de Técnico Superior en Administración de Sistemas Informáticos en Red y se fijan sus enseñanzas mínimas.",
-            "fichero": [
-                "boe/BOE-2009-1629-RD-FP-ASIR-titulo.pdf"
-            ],
-            "publicación": [
-                "BOE",
-                "2009-11-18"
-            ],
-            "estado": "vigente",
-            "claves": [
-                "educación",
-                "currículo",
-                "formación profesional",
-                "grado superior"
-            ]
-        },
-        {
-            "id": "boe-rd-2010-450",
-            "descripción": "Decreto del Título de DAM",
-            "titulo": "Real Decreto 450/2010, de 16 de abril, por el que se establece el título de Técnico Superior en Desarrollo de Aplicaciones Multiplataforma y se fijan sus enseñanzas mínimas.",
-            "fichero": [
-                "boe/BOE-2010-450-RD-FP-DAM-titulo.pdf"
-            ],
-            "publicación": [
-                "BOE",
-                "2010-05-20"
-            ],
-            "estado": "vigente",
-            "claves": [
-                "educación",
-                "currículo",
-                "formación profesional",
-                "grado superior"
-            ]
-        },
-        {
-            "id": "boe-rd-2010-686",
-            "descripción": "Decreto del Título de DAW",
-            "titulo": "Real Decreto 686/2010, de 20 de mayo, por el que se establece el título de Técnico Superior en Desarrollo de Aplicaciones Web y se fijan sus enseñanzas mínimas.",
-            "fichero": [
-                "boe/BOE-2010-686-RD-FP-DAW-titulo.pdf"
-            ],
-            "publicación": [
-                "BOE",
-                "2010-06-12"
-            ],
-            "estado": "vigente",
-            "claves": [
-                "educación",
-                "currículo",
-                "formación profesional",
-                "grado superior"
-            ]
-        },
-        {
             "id": "boe-2013-8-l",
+            "incluido": "2019-11-26",
             "descripción": "LOMCE",
             "titulo": "Ley Orgánica 8/2013, de 9 de diciembre, para la mejora de la calidad educativa.",
             "fichero": [
                 "boe/BOE-2013-8-L-LOMCE.pdf"
             ],
+            "web": [
+                "https://www.boe.es/eli/es/lo/2013/12/09/8"
+            ],
+            "ámbito": "España",
             "publicación": [
                 "BOE",
                 "2013-12-10"
@@ -178,6 +223,83 @@
                 "primaria",
                 "secundaria",
                 "formación profesional"
+            ]
+        },
+        {
+            "id": "docv-2015-69-o",
+            "incluido": "2019-11-27",
+            "descripción": "Plantillas Secundaria",
+            "titulo": "Orden 69/2015, de 25 de junio, de la Consellería de Educación, Cultura y Deporte, por la que se establecen criterios para la dotación de plantillas y para la determinación de condiciones de trabajo del profesorado de los centros docentes públicos que imparten ESO, Bachillerato y Formación Profesional, dependientes de la consellería competente en materia de educación.",
+            "fichero": [
+                "docv/DOCV-2015-69-O-plantillas-secundaria.pdf"
+            ],
+            "web": [
+                "https://www.dogv.gva.es/es/eli/es-vc/o/2015/06/25/69/"
+            ],
+            "ámbito": "Comunidad Valenciana",
+            "publicación": [
+                "DOCV",
+                "2015-06-30"
+            ],
+            "estado": "vigente",
+            "claves": [
+                "educación",
+                "secundaria",
+                "ESO",
+                "bachillerato",
+                "formación profesional"
+            ]
+        },
+        {
+            "id": "docv-1997-234-d",
+            "incluido": "2019-11-27",
+            "descripción": "ROF centros de secundaria",
+            "titulo": "Decreto 234/1997, de 2 de septiembre, del Gobierno Valenciano, por el que se aprueba el Reglamento orgánico y funcional de los institutos de educación secundaria.",
+            "fichero": [
+                "docv/DOCV-1997-09-08-D-rof-ies.pdf"
+            ],
+            "web": [
+                "https://www.dogv.gva.es/va/eli/es-vc/d/1997/09/02/234/con/"
+            ],
+            "ámbito": "Comunidad Valenciana",
+            "publicación": [
+                "DOCV",
+                "1997-09-08"
+            ],
+            "estado": "vigente",
+            "claves": [
+                "centros",
+                "secundaria",
+                "ESO",
+                "bachillerato",
+                "formación profesional"
+            ]
+        },
+        {
+            "id": "boe-2015-665-rd",
+            "incluido": "2019-11-27",
+            "descripción": "Especialidades de secundaria",
+            "titulo": "Real Decreto 665/2015, de 17 de julio, por el que se desarrollan determinadas disposiciones relativas al ejercicio de la docencia en la Educación Secundaria Obligatoria, el Bachillerato, la Formación Profesional y las enseñanzas de régimen especial, a la formación inicial del profesorado y a las especialidades de los cuerpos docentes de Enseñanza Secundaria.",
+            "fichero": [
+                "boe/BOE-2015-665-RD-especialidades-secundaria.pdf"
+            ],
+            "web": [
+                "https://www.boe.es/eli/es/rd/2015/07/17/665"
+            ],
+            "ámbito": "España",
+            "publicación": [
+                "BOE",
+                "2015-07-18"
+            ],
+            "estado": "vigente",
+            "claves": [
+                "profesorado",
+                "secundaria",
+                "ESO",
+                "bachillerato",
+                "formación profesional",
+                "especialidades docentes",
+                "formación inicial"
             ]
         }
     ]
