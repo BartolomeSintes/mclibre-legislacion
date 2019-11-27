@@ -1,0 +1,36 @@
+html { font-family: sans-serif; font-size: 110%; }
+
+li { margin-bottom: 20px; }
+
+footer { border-top: black 1px solid; padding-top: 5px;}
+
+.derogado { color: red; text-transform: uppercase;}
+
+.disposiciones {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.disposicion {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 300px;
+  margin: 5px;
+  border: black 1px solid;
+  text-align: center;
+}
+
+.disposicion p:nth-child(odd) {
+  background-color: #eee;
+}
+
+.disposicion p {
+  margin: 0;
+  padding: 5px 10px;
+}
+
+.disposicion .descripcion {
+  font-weight: bold;
+}
+

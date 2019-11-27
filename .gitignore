@@ -4,4 +4,6 @@
 /bower_components/
 /node_modules/
 /.vscode
+/__pycache__/
 /tmp/
+/docs/files/pendiente/

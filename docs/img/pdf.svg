@@ -1,0 +1,7 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+     width="73" height="100" viewBox="-5 -5 73 100">
+	<polygon points="0,0 48,0 63,15 63,90 0,90" stroke="black" stroke-width="3" fill="white" />
+	<polygon points="48,0 63,15 48,15" stroke="none" stroke-width="2" fill="black" />
+	<text x="32" y="50" font-family="sans-serif" font-size="28" text-anchor="middle">PDF</text>
+</svg>
+
