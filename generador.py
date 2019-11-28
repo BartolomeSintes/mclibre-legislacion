@@ -19,10 +19,12 @@ def main():
     for elemento in legislacion:
         t += f'    <article class="disposicion" id="{elemento["id"]}">\n'
         t += f'      <p class="descripcion">{elemento["descripción"]}</p>\n'
-        t += f'      <p class="publicacion">{elemento["publicación"][0]} {elemento["publicación"][1]}'
+        t += f'      <p class="publicacion">\n'
+        t += f'        {gweb.bandera(elemento["ámbito"], 25)}\n'
+        t += f'        {elemento["publicación"][0]} {elemento["publicación"][1]}\n'
         if elemento["estado"] == gconst.DEROGADO:
-            t += f' <span class="derogado">derogado</span>'
-        t += "</p>\n"
+            t += f'        <span class="derogado">derogado</span>\n'
+        t += "      </p>\n"
         t += '      <p class="fichero">\n'
         for fichero in elemento["fichero"]:
             file = pathlib.Path(f"{gconst.DIR_SITE}/{gconst.DIR_FILES}/{fichero}")

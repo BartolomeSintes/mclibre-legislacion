@@ -13,6 +13,10 @@ def fecha_a_texto(numero):
     )
 
 
+def bandera(entidad, ancho):
+    return f'<img src="{gconst.DIR_IMAGES}/bandera-{gconst.CODIGOS_ISO_3166[entidad]}.svg" alt="{entidad}" title="{entidad}" width="{ancho}">'
+
+
 def cabecera(titulo):
     tmp = "<!DOCTYPE html>\n"
     tmp += '<html lang="es">\n'
@@ -77,6 +81,10 @@ def guarda_css():
     t += "\n"
     t += ".disposicion .descripcion {\n"
     t += "  font-weight: bold;\n"
+    t += "}\n"
+    t += "\n"
+    t += ".disposicion .titulo {\n"
+    t += "  text-align: justify;\n"
     t += "}\n"
     t += "\n"
 
