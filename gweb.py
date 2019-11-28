@@ -30,6 +30,8 @@ def cabecera(titulo):
     tmp += "<body>\n"
     tmp += f"  <h1>{titulo}</h1>\n"
     tmp += "\n"
+    tmp += f'  <p><img src="{gconst.DIR_IMAGES}/icono-warning.svg" alt="¡Atención!" width="50">Esta página web está en elaboración y se ofrece temporalmente en esta ubicación. Por favor, no enlace a esta web porque su ubicación definitiva puede ser otra.</p>\n'
+    tmp += "\n"
     return tmp
 
 
