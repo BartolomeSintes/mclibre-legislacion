@@ -23,7 +23,7 @@ MES = [
     "diciembre",
 ]
 CODIGOS_ISO_3166 = {
-    "Europa": "eu",
+    "Unión Europea": "eu",
     "España": "es",
     "Andalucía": "es-an",
     "Aragón": "es-ar",

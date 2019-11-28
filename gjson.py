@@ -1,19 +1,17 @@
 import json
 
-def ordenar(json, criterio):
 
-    result = json
-
-    # for i in legislacion:
-    #     print(i["id"])
-    # print()
-
-    # for value in sorted(legislacion, key=lambda valdict: valdict["id"]):
-    #     print(value["id"])
-    # print()
-
-    # for value in sorted(legislacion, key=lambda valdict: valdict["id"], reverse=True):
-    #     print(value["id"])
+def ordena(json, criterio):
+    final = dict(json)
+    final["legislacion"] = sorted(
+        final["legislacion"], key=lambda x: x[criterio][1], reverse=False
+    )
+    return final
 
 
-    return result
+def selecciona(lista, campo, valor):
+    lista2 = lista[:]
+    for elemento in lista2[:]:
+        if elemento[campo] != valor:
+            lista2.remove(elemento)
+    return lista2

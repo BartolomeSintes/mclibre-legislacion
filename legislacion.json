@@ -1,7 +1,8 @@
 {
     "comments": {
-        "date": "2019-11-24",
-        "description": "Legislación relacionada con la informática (educación, etc.)"
+        "date": "2019-11-28",
+        "description": "Legislación relacionada con la informática (educación, etc.)",
+        "warning": "El formato de este json está todavía en elaboración. Probablemente sufra modificaciones."
     },
     "legislacion": [
         {
@@ -20,7 +21,7 @@
                 "2008-11-17"
             ],
             "ámbito": "España",
-            "estado": "vigente",
+            "vigencia": "vigente",
             "claves": [
                 "educación",
                 "currículo",
@@ -44,7 +45,7 @@
                 "BOE",
                 "2009-11-18"
             ],
-            "estado": "vigente",
+            "vigencia": "vigente",
             "claves": [
                 "educación",
                 "currículo",
@@ -68,7 +69,7 @@
                 "BOE",
                 "2010-05-20"
             ],
-            "estado": "vigente",
+            "vigencia": "vigente",
             "claves": [
                 "educación",
                 "currículo",
@@ -92,7 +93,7 @@
                 "BOE",
                 "2010-06-12"
             ],
-            "estado": "vigente",
+            "vigencia": "vigente",
             "claves": [
                 "educación",
                 "currículo",
@@ -116,7 +117,7 @@
                 "BOE",
                 "1990-10-04"
             ],
-            "estado": "derogado",
+            "vigencia": "derogado",
             "claves": [
                 "educación",
                 "ley",
@@ -141,7 +142,7 @@
                 "BOE",
                 "1995-11-21"
             ],
-            "estado": "derogado",
+            "vigencia": "derogado",
             "claves": [
                 "educación",
                 "ley",
@@ -166,7 +167,7 @@
                 "BOE",
                 "2002-12-24"
             ],
-            "estado": "derogado",
+            "vigencia": "derogado",
             "claves": [
                 "educación",
                 "ley",
@@ -191,7 +192,7 @@
                 "BOE",
                 "2006-05-04"
             ],
-            "estado": "vigente",
+            "vigencia": "vigente",
             "claves": [
                 "educación",
                 "ley",
@@ -216,7 +217,7 @@
                 "BOE",
                 "2013-12-10"
             ],
-            "estado": "vigente",
+            "vigencia": "vigente",
             "claves": [
                 "educación",
                 "ley",
@@ -241,7 +242,7 @@
                 "DOCV",
                 "2015-06-30"
             ],
-            "estado": "vigente",
+            "vigencia": "vigente",
             "claves": [
                 "educación",
                 "secundaria",
@@ -266,7 +267,7 @@
                 "DOCV",
                 "1997-09-08"
             ],
-            "estado": "vigente",
+            "vigencia": "vigente",
             "claves": [
                 "centros",
                 "secundaria",
@@ -291,7 +292,7 @@
                 "BOE",
                 "2015-07-18"
             ],
-            "estado": "vigente",
+            "vigencia": "vigente",
             "claves": [
                 "profesorado",
                 "secundaria",
@@ -313,12 +314,12 @@
             "web": [
                 "https://eur-lex.europa.eu/legal-content/es/TXT/?uri=CELEX:32018H0604(01)"
             ],
-            "ámbito": "Europa",
+            "ámbito": "Unión Europea",
             "publicación": [
                 "DOCE",
                 "2018-06-04"
             ],
-            "estado": "vigente",
+            "vigencia": "vigente",
             "claves": [
                 "competencias clave",
                 "aprendizaje permanente"
@@ -340,7 +341,7 @@
                 "BOE",
                 "2002-06-21"
             ],
-            "estado": "vigente",
+            "vigencia": "vigente",
             "claves": [
                 "formación profesional",
                 "cualificaciones"
@@ -362,7 +363,7 @@
                 "BOE",
                 "2015-08-04"
             ],
-            "estado": "vigente",
+            "vigencia": "vigente",
             "claves": [
                 "formación profesional",
                 "cualificaciones"
@@ -384,7 +385,7 @@
                 "BOE",
                 "2019-04-27"
             ],
-            "estado": "vigente",
+            "vigencia": "vigente",
             "claves": [
                 "formación profesional",
                 "cualificaciones"
@@ -393,7 +394,7 @@
         {
             "id": "docv-2009-07-29-o",
             "incluido": "2019-11-28",
-            "descripción": "Curículo SMR (CV))",
+            "descripción": "Curículo SMR (CV)",
             "titulo": "ORDEN de 29 de julio 2009, de la Conselleria de Educación, por la que se establece para la Comunitat Valenciana el currículo del ciclo formativo de Grado Medio correspondiente al título de Técnico en Sistemas Microinformáticos y Redes.",
             "fichero": [
                 "docv/DOCV-2009-07-29-O-FP-SMR-curriculo.pdf"
@@ -406,7 +407,7 @@
                 "DOCV",
                 "2009-09-03"
             ],
-            "estado": "vigente",
+            "vigencia": "vigente",
             "claves": [
                 "educación",
                 "currículo",
@@ -417,7 +418,7 @@
         {
             "id": "docv-2012-36-o",
             "incluido": "2019-11-28",
-            "descripción": "Curículo ASIR (CV))",
+            "descripción": "Curículo ASIR (CV)",
             "titulo": "ORDEN 36/2012, de 22 de junio, de la Conselleria de Educación, Formación y Empleo, por la que se establece para la Comunitat Valenciana el currículo del ciclo formativo de grado superior correspondiente al título de Técnico Superior en Administración de Sistemas Informáticos en Red.",
             "fichero": [
                 "docv/DOCV-2012-36-O_FP_ASIR_curriculo.pdf"
@@ -430,7 +431,7 @@
                 "DOCV",
                 "2012-07-06"
             ],
-            "estado": "vigente",
+            "vigencia": "vigente",
             "claves": [
                 "educación",
                 "currículo",
@@ -441,7 +442,7 @@
         {
             "id": "docv-2012-58-o",
             "incluido": "2019-11-28",
-            "descripción": "Curículo DAM (CV))",
+            "descripción": "Curículo DAM (CV)",
             "titulo": "ORDEN 58/2012, de 5 de septiembre, de la Conselleria de Educación, Formación y Empleo, por la que se establece para la Comunitat Valenciana el currículo del ciclo formativo de grado superior correspondiente al título de Técnico Superior en Desarrollo de Aplicaciones Multiplataforma.",
             "fichero": [
                 "docv/DOCV-2012-58-O-FP-DAM-curriculo.pdf"
@@ -454,7 +455,7 @@
                 "DOCV",
                 "2012-09-24"
             ],
-            "estado": "vigente",
+            "vigencia": "vigente",
             "claves": [
                 "educación",
                 "currículo",
@@ -465,7 +466,7 @@
         {
             "id": "docv-2012-60-o",
             "incluido": "2019-11-28",
-            "descripción": "Curículo DAW (CV))",
+            "descripción": "Curículo DAW (CV)",
             "titulo": "ORDEN 60/2012, de 25 de septiembre, de la Conselleria de Educación, Formación y Empleo por la que se establece para la Comunitat Valenciana el currículo del ciclo formativo de Grado Superior correspondiente al título de Técnico Superior en Desarrollo de Aplicaciones Web.",
             "fichero": [
                 "docv/DOCV-2012-60-O-FP-DAW-curriculo.pdf"
@@ -478,7 +479,7 @@
                 "DOCV",
                 "2012-10-08"
             ],
-            "estado": "vigente",
+            "vigencia": "vigente",
             "claves": [
                 "educación",
                 "currículo",
@@ -502,7 +503,7 @@
                 "DOCV",
                 "2019-05-03"
             ],
-            "estado": "vigente",
+            "vigencia": "vigente",
             "claves": [
                 "inclusión",
                 "primaria",
@@ -526,7 +527,7 @@
                 "BOE",
                 "1993-05-22"
             ],
-            "estado": "derogado",
+            "vigencia": "derogado",
             "claves": [
                 "formación profesional",
                 "títulos",
@@ -549,7 +550,7 @@
                 "BOE",
                 "1998-05-08"
             ],
-            "estado": "vigente",
+            "vigencia": "vigente",
             "claves": [
                 "formación profesional",
                 "ordenación"

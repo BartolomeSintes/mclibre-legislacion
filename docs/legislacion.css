@@ -21,6 +21,13 @@ footer { border-top: black 1px solid; padding-top: 5px;}
   text-align: center;
 }
 
+.disposicion h3 {
+  margin: 0;
+  padding: 5px 10px;
+  background-color: #eee;
+  font-size: 100%;
+}
+
 .disposicion p:nth-child(odd) {
   background-color: #eee;
 }

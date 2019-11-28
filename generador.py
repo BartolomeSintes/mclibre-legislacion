@@ -8,39 +8,38 @@ def main():
     with open(gconst.FILE_JSON, encoding="utf-8") as file:
         FILE_JSON = json.load(file)
     legislacion = FILE_JSON["legislacion"]
+    legislacion = gjson.ordena(FILE_JSON, "publicación")
+    legislacion = legislacion["legislacion"]
 
     gweb.guarda_css()
 
     # Genera índice
     t = ""
+    t += "\n"
     t += gweb.cabecera("Legislación de interés para profesores de informática")
-    t += '  <section class="disposiciones">\n'
 
-    for elemento in legislacion:
-        t += f'    <article class="disposicion" id="{elemento["id"]}">\n'
-        t += f'      <p class="descripcion">{elemento["descripción"]}</p>\n'
-        t += f'      <p class="publicacion">\n'
-        t += f'        {gweb.bandera(elemento["ámbito"], 25)}\n'
-        t += f'        {elemento["publicación"][0]} {elemento["publicación"][1]}\n'
-        if elemento["estado"] == gconst.DEROGADO:
-            t += f'        <span class="derogado">derogado</span>\n'
-        t += "      </p>\n"
-        t += '      <p class="fichero">\n'
-        for fichero in elemento["fichero"]:
-            file = pathlib.Path(f"{gconst.DIR_SITE}/{gconst.DIR_FILES}/{fichero}")
-            weight = str(round(file.stat().st_size / 1024 / 1024, 1)) + " MB)"
-            formato = file.suffix[1:].upper()
-            t += f'        <a href="{gconst.DIR_FILES}/{fichero}">{formato}</a> ({weight}\n'
-        if elemento["web"] != [""]:
-            for pagina in elemento["web"]:
-                t += f'        - <a href="{pagina}">web</a>\n'
-        t += "      </p>\n"
-        t += f'      <p class="titulo">{elemento["titulo"]}</p>\n'
-        t += "    </article>\n"
-        t += "\n"
-    t += "  </section>\n"
+    t += f"  <p>Esta web contiene actualmente {len(legislacion)} referencias legislativas.</p>\n"
+    t += "\n"
+
+    grupo = gjson.selecciona(legislacion, "ámbito", "Unión Europea")
+    grupo = gjson.selecciona(grupo, "vigencia", "vigente")
+    t += gweb.seccion(grupo, "ue", "Legislación Unión Europea")
+
+    grupo = gjson.selecciona(legislacion, "ámbito", "España")
+    grupo = gjson.selecciona(grupo, "vigencia", "vigente")
+    t += gweb.seccion(grupo, "es", "Legislación Española")
+
+    grupo = gjson.selecciona(legislacion, "ámbito", "Comunidad Valenciana")
+    grupo = gjson.selecciona(grupo, "vigencia", "vigente")
+    t += gweb.seccion(grupo, "es-cv", "Legislación Comunidad Valenciana")
+
+    grupo = gjson.selecciona(legislacion, "vigencia", "derogado")
+    t += gweb.seccion(grupo, "derogada", "Legislación derogada")
+
     t += gweb.pie()
-    with open(f"{gconst.DIR_SITE}/{gconst.FILE_INDEX}", "w", encoding="utf-8") as fichero:
+    with open(
+        f"{gconst.DIR_SITE}/{gconst.FILE_INDEX}", "w", encoding="utf-8"
+    ) as fichero:
         fichero.write(t)
 
 

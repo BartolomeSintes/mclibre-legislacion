@@ -35,6 +35,39 @@ def cabecera(titulo):
     return tmp
 
 
+def seccion(legislacion, id, titulo):
+    tmp = f'  <section id="{id}">\n'
+    tmp += f"    <h2>{titulo}</h2>\n"
+    tmp += "\n"
+    tmp += f'    <div class="disposiciones">\n'
+    for elemento in legislacion:
+        tmp += f'      <article class="disposicion" id="{elemento["id"]}">\n'
+        tmp += f'        <h3>{elemento["descripción"]}</h3>\n'
+        tmp += f'        <p class="publicacion">\n'
+        tmp += f'          {bandera(elemento["ámbito"], 25)}\n'
+        tmp += f'          {elemento["publicación"][0]} {elemento["publicación"][1]}\n'
+        if elemento["vigencia"] == gconst.DEROGADO:
+            tmp += f'          <span class="derogado">derogado</span>\n'
+        tmp += "        </p>\n"
+        tmp += '        <p class="fichero">\n'
+        for fichero in elemento["fichero"]:
+            file = pathlib.Path(f"{gconst.DIR_SITE}/{gconst.DIR_FILES}/{fichero}")
+            weight = str(round(file.stat().st_size / 1024 / 1024, 1)) + " MB)"
+            formato = file.suffix[1:].upper()
+            tmp += f'          <a href="{gconst.DIR_FILES}/{fichero}">{formato}</a> ({weight}\n'
+        if elemento["web"] != [""]:
+            for pagina in elemento["web"]:
+                tmp += f'          - <a href="{pagina}">web</a>\n'
+        tmp += "        </p>\n"
+        tmp += f'        <p class="titulo">{elemento["titulo"]}</p>\n'
+        tmp += "      </article>\n"
+        tmp += "\n"
+    tmp += f'    </div>\n'
+    tmp += "  </section>\n"
+    tmp += "\n"
+    return tmp
+
+
 def pie():
     tmp = "\n"
     tmp += "  <footer>\n"
@@ -70,6 +103,13 @@ def guarda_css():
     t += "  margin: 5px;\n"
     t += "  border: black 1px solid;\n"
     t += "  text-align: center;\n"
+    t += "}\n"
+    t += "\n"
+    t += ".disposicion h3 {\n"
+    t += "  margin: 0;\n"
+    t += "  padding: 5px 10px;\n"
+    t += "  background-color: #eee;\n"
+    t += "  font-size: 100%;\n"
     t += "}\n"
     t += "\n"
     t += ".disposicion p:nth-child(odd) {\n"
