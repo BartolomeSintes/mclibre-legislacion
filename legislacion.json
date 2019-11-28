@@ -323,6 +323,237 @@
                 "competencias clave",
                 "aprendizaje permanente"
             ]
+        },
+        {
+            "id": "boe-2002-5-l-consolidado-2012-06-20",
+            "incluido": "2019-11-28",
+            "descripción": "Ley Cualificaciones y FP",
+            "titulo": "Ley Orgánica 5/2002, de 19 de junio, de las Cualificaciones y de la Formación Profesional.",
+            "fichero": [
+                "boe/BOE-2002-5-L-cualificaciones-fp-consolidado-2012-06-20.pdf"
+            ],
+            "web": [
+                "https://www.boe.es/eli/es/lo/2002/06/19/5/con"
+            ],
+            "ámbito": "España",
+            "publicación": [
+                "BOE",
+                "2002-06-21"
+            ],
+            "estado": "vigente",
+            "claves": [
+                "formación profesional",
+                "cualificaciones"
+            ]
+        },
+        {
+            "id": "boe-2015-1636-o",
+            "incluido": "2019-11-28",
+            "descripción": "Cualificaciones profesionales Informática",
+            "titulo": "Orden PRE/1636/2015,de 23 de julio, por la que se actualizan dieciocho cualificaciones profesionales de la familia profesional Informática y Comunicaciones, recogidas en el Catálogo Nacional de Cualificaciones Profesionales, establecidas por Real Decreto 295/2004, de 20 de febrero, Real Decreto 1087/2005, de 16 de septiembre, Real Decreto 1201/2007, de 14 de septiembre y Real Decreto 1701/2007, de 14 de diciembre; y se modifican parcialmente determinados anexos establecidos por Real Decreto 295/2004, de 20 de febrero, Real Decreto 1087/2005, de 16 de septiembre y Real Decreto 1201/2007, de 14 de septiembre.",
+            "fichero": [
+                "boe/BOE-2015-1636-O-catalogo-cualificaciones.pdf"
+            ],
+            "web": [
+                "https://www.boe.es/eli/es/o/2015/07/23/pre1636"
+            ],
+            "ámbito": "España",
+            "publicación": [
+                "BOE",
+                "2015-08-04"
+            ],
+            "estado": "vigente",
+            "claves": [
+                "formación profesional",
+                "cualificaciones"
+            ]
+        },
+        {
+            "id": "boe-2019-479-o-pci",
+            "incluido": "2019-11-28",
+            "descripción": "Cualificaciones profesionales Informática",
+            "titulo": "Orden PCI/479/2019, de 12 de abril, por la que se actualizan cualificaciones profesionales de la familia profesional informática y comunicaciones, recogidas en el Catálogo Nacional de Cualificaciones Profesionales, establecidas por el Real Decreto 295/2004, de 20 de febrero, el Real Decreto 1087/2005, de 16 de septiembre, y el Real Decreto 1201/2007, de 14 de septiembre.",
+            "fichero": [
+                "boe/BOE-2019-479-O-PCI-catalogo-cualificaciones.pdf"
+            ],
+            "web": [
+                "https://www.boe.es/eli/es/o/2019/04/12/pci479"
+            ],
+            "ámbito": "España",
+            "publicación": [
+                "BOE",
+                "2019-04-27"
+            ],
+            "estado": "vigente",
+            "claves": [
+                "formación profesional",
+                "cualificaciones"
+            ]
+        },
+        {
+            "id": "docv-2009-07-29-o",
+            "incluido": "2019-11-28",
+            "descripción": "Curículo SMR (CV))",
+            "titulo": "ORDEN de 29 de julio 2009, de la Conselleria de Educación, por la que se establece para la Comunitat Valenciana el currículo del ciclo formativo de Grado Medio correspondiente al título de Técnico en Sistemas Microinformáticos y Redes.",
+            "fichero": [
+                "docv/DOCV-2009-07-29-O-FP-SMR-curriculo.pdf"
+            ],
+            "web": [
+                "https://www.dogv.gva.es/es/eli/es-vc/o/2009/07/29/(11)/"
+            ],
+            "ámbito": "Comunidad Valenciana",
+            "publicación": [
+                "DOCV",
+                "2009-09-03"
+            ],
+            "estado": "vigente",
+            "claves": [
+                "educación",
+                "currículo",
+                "formación profesional",
+                "grado medio"
+            ]
+        },
+        {
+            "id": "docv-2012-36-o",
+            "incluido": "2019-11-28",
+            "descripción": "Curículo ASIR (CV))",
+            "titulo": "ORDEN 36/2012, de 22 de junio, de la Conselleria de Educación, Formación y Empleo, por la que se establece para la Comunitat Valenciana el currículo del ciclo formativo de grado superior correspondiente al título de Técnico Superior en Administración de Sistemas Informáticos en Red.",
+            "fichero": [
+                "docv/DOCV-2012-36-O_FP_ASIR_curriculo.pdf"
+            ],
+            "web": [
+                "https://www.dogv.gva.es/es/eli/es-vc/o/2012/06/22/36/"
+            ],
+            "ámbito": "Comunidad Valenciana",
+            "publicación": [
+                "DOCV",
+                "2012-07-06"
+            ],
+            "estado": "vigente",
+            "claves": [
+                "educación",
+                "currículo",
+                "formación profesional",
+                "grado superior"
+            ]
+        },
+        {
+            "id": "docv-2012-58-o",
+            "incluido": "2019-11-28",
+            "descripción": "Curículo DAM (CV))",
+            "titulo": "ORDEN 58/2012, de 5 de septiembre, de la Conselleria de Educación, Formación y Empleo, por la que se establece para la Comunitat Valenciana el currículo del ciclo formativo de grado superior correspondiente al título de Técnico Superior en Desarrollo de Aplicaciones Multiplataforma.",
+            "fichero": [
+                "docv/DOCV-2012-58-O-FP-DAM-curriculo.pdf"
+            ],
+            "web": [
+                "https://www.dogv.gva.es/es/eli/es-vc/o/2012/09/05/58/"
+            ],
+            "ámbito": "Comunidad Valenciana",
+            "publicación": [
+                "DOCV",
+                "2012-09-24"
+            ],
+            "estado": "vigente",
+            "claves": [
+                "educación",
+                "currículo",
+                "formación profesional",
+                "grado superior"
+            ]
+        },
+        {
+            "id": "docv-2012-60-o",
+            "incluido": "2019-11-28",
+            "descripción": "Curículo DAW (CV))",
+            "titulo": "ORDEN 60/2012, de 25 de septiembre, de la Conselleria de Educación, Formación y Empleo por la que se establece para la Comunitat Valenciana el currículo del ciclo formativo de Grado Superior correspondiente al título de Técnico Superior en Desarrollo de Aplicaciones Web.",
+            "fichero": [
+                "docv/DOCV-2012-60-O-FP-DAW-curriculo.pdf"
+            ],
+            "web": [
+                "https://www.dogv.gva.es/es/eli/es-vc/o/2012/09/25/60/"
+            ],
+            "ámbito": "Comunidad Valenciana",
+            "publicación": [
+                "DOCV",
+                "2012-10-08"
+            ],
+            "estado": "vigente",
+            "claves": [
+                "educación",
+                "currículo",
+                "formación profesional",
+                "grado superior"
+            ]
+        },
+        {
+            "id": "docv-2019-20-o",
+            "incluido": "2019-11-28",
+            "descripción": "Inclusión (CV)",
+            "titulo": "ORDEN 20/2019, de 30 de abril, de la Conselleria de Educación, Investigación, Cultura y Deporte, por la cual se regula la organización de la respuesta educativa para la inclusión del alumnado en los centros docentes sostenidos con fondos públicos del sistema educativo valenciano.",
+            "fichero": [
+                "docv/DOCV-2019-20-O-inclusion.pdf"
+            ],
+            "web": [
+                "https://www.dogv.gva.es/es/eli/es-vc/o/2019/04/30/20/"
+            ],
+            "ámbito": "Comunidad Valenciana",
+            "publicación": [
+                "DOCV",
+                "2019-05-03"
+            ],
+            "estado": "vigente",
+            "claves": [
+                "inclusión",
+                "primaria",
+                "secundaria",
+                "formación profesional"
+            ]
+        },
+        {
+            "id": "boe-1993-676-rd",
+            "incluido": "2019-11-28",
+            "descripción": "Títulos y enseñanzas mínimas FP",
+            "titulo": "Real Decreto 676/1993, de 7 de mayo, por el que se establecen directrices generales sobre los títulos y las correspondientes enseñanzas mínimas de formación profesional.",
+            "fichero": [
+                "boe/BOE-1993-676-RD-titulos-fp.pdf"
+            ],
+            "web": [
+                "https://www.boe.es/eli/es/rd/1993/05/07/676"
+            ],
+            "ámbito": "España",
+            "publicación": [
+                "BOE",
+                "1993-05-22"
+            ],
+            "estado": "derogado",
+            "claves": [
+                "formación profesional",
+                "títulos",
+                "enseñanzas mínimas"
+            ]
+        },
+        {
+            "id": "boe-1998-777-rd",
+            "incluido": "2019-11-28",
+            "descripción": "Ordenación FP",
+            "titulo": "Real Decreto 777/1998, de 30 de abril, por el que se desarrollan determinados aspectos de la ordenación de la formación profesional en el ámbito del sistema educativo.",
+            "fichero": [
+                "boe/BOE-1998-777-RD-ordenacion-fp.pdf"
+            ],
+            "web": [
+                "https://www.boe.es/eli/es/rd/1998/04/30/777"
+            ],
+            "ámbito": "España",
+            "publicación": [
+                "BOE",
+                "1998-05-08"
+            ],
+            "estado": "vigente",
+            "claves": [
+                "formación profesional",
+                "ordenación"
+            ]
         }
     ]
 }

@@ -14,9 +14,7 @@ Este repositorio contiene una colección legislativa de interés para profesores
 
 -   2019-11-26. Incluir un buscador para facilitar la consulta.
 
--   2019-11-26. Poner enlace a la web del BOE, DOGV, EURLEX, etc.
-
--   2019-11-26. Poner enlace a versión consolidada.
+-   2019-11-26. Incluir tanto la versión original como la versión consolidada de las leyes.
 
 -   2019-11-26. Indicar de alguna manera la legislación "repetitiva" (órdenes de inicio de curso, etc.)
 
@@ -26,4 +24,3 @@ Este repositorio contiene una colección legislativa de interés para profesores
 
 -   2019-11-27. ¿Validar json con https://json-schema.org/ ?
 
--   2019-11-28. Códigos y banderas comunidades autónomas: https://es.wikipedia.org/wiki/ISO_3166-2:ES
