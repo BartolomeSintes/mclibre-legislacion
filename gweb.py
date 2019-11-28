@@ -85,6 +85,7 @@ def guarda_css():
     t += "\n"
     t += ".disposicion .titulo {\n"
     t += "  text-align: justify;\n"
+    t += "  font-size: 90%;\n"
     t += "}\n"
     t += "\n"
 

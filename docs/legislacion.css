@@ -36,5 +36,6 @@ footer { border-top: black 1px solid; padding-top: 5px;}
 
 .disposicion .titulo {
   text-align: justify;
+  font-size: 90%;
 }
 
