@@ -343,7 +343,7 @@
             ]
         },
         {
-            "id": "celex-32018H0604-01",
+            "id": "celex-32018H0604(01)",
             "incluido": "2019-11-28",
             "modificado": "",
             "descripción": "Competencias clave",
@@ -707,6 +707,85 @@
             "claves": [
                 "formación profesional",
                 "cualificaciones"
+            ]
+        },
+        {
+            "id": "boe-2018-16673",
+            "incluido": "2019-11-29",
+            "descripción": "LOPD",
+            "titulo": "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales.",
+            "documentos": [
+                {
+                    "tipo": "original",
+                    "fichero": "boe/BOE-2018-3-LO-LOPD.pdf",
+                    "web": "https://www.boe.es/eli/es/lo/2018/12/05/3"
+                },
+                {
+                    "tipo": "consolidado",
+                    "fichero": "boe/BOE-2018-3-LO-LOPD-consolidado-2019-06-25.pdf",
+                    "web": "https://www.boe.es/eli/es/lo/2018/12/05/3/con"
+                }
+            ],
+            "ámbito": "España",
+            "publicación": [
+                "BOE",
+                "2018-12-06"
+            ],
+            "vigencia": "vigente",
+            "claves": [
+                "protección de datos",
+                "derechos digitales"
+            ]
+        },
+        {
+            "id": "celex:32016R0679",
+            "incluido": "2019-11-29",
+            "descripción": "Reglamento Protección de datos",
+            "titulo": "Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo de 27 de abril de 2016 relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos y por el que se deroga la Directiva 95/46/CE (Reglamento general de protección de datos)",
+            "documentos": [
+                {
+                    "tipo": "original",
+                    "fichero": "eur-lex/EURLEX-2016-679-R-proteccion-datos-es.pdf",
+                    "web": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=celex:32016R0679"
+                }
+            ],
+            "ámbito": "Unión Europea",
+            "publicación": [
+                "DOCE",
+                "2016-05-04"
+            ],
+            "vigencia": "vigente",
+            "claves": [
+                "protección de datos",
+                "derechos digitales"
+            ]
+        },
+        {
+            "id": "boe-2202-34",
+            "incluido": "2019-11-29",
+            "descripción": "Sociedad de información",
+            "titulo": "Ley 34/2002, de 11 de julio, de servicios de la sociedad de la información y de comercio electrónico.",
+            "documentos": [
+                {
+                    "tipo": "original",
+                    "fichero": "boe/BOE-2002-34-L-sociedad-informacion.pdf",
+                    "web": "https://www.boe.es/eli/es/l/2002/07/11/34/"
+                },
+                {
+                    "tipo": "consolidado",
+                    "fichero": "boe/BOE-2002-34-L-sociedad-informacion-consolidado-2014-05-10.pdf",
+                    "web": "https://www.boe.es/eli/es/l/2002/07/11/34/con"
+                }
+            ],
+            "ámbito": "España",
+            "publicación": [
+                "BOE",
+                "2002-07-12"
+            ],
+            "vigencia": "vigente",
+            "claves": [
+                "sociedad de información",
+                "comercio electrónico"
             ]
         }
     ]
