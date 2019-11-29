@@ -555,6 +555,72 @@
                 "formación profesional",
                 "ordenación"
             ]
+        },
+        {
+            "id": "boe-2003-1128-rd",
+            "incluido": "2019-11-29",
+            "descripción": "Catálogo Cualificaciones Profesionales",
+            "titulo": "REAL DECRETO 1128/2003, de 5 de septiembre, por el que se regula el Catálogo Nacional de Cualificaciones Profesionales.",
+            "fichero": [
+                "boe/BOE-2003-1128-RD-catalogo-cualificaciones.pdf"
+            ],
+            "web": [
+                "https://www.boe.es/eli/es/rd/2003/09/05/1128"
+            ],
+            "ámbito": "España",
+            "publicación": [
+                "BOE",
+                "2003-09-17"
+            ],
+            "vigencia": "vigente",
+            "claves": [
+                "formación profesional",
+                "cualificaciones"
+            ]
+        },
+        {
+            "id": "boe-2004-295",
+            "incluido": "2019-11-29",
+            "descripción": "Cualificaciones Profesionales de Informática",
+            "titulo": "REAL DECRETO 295/2004, de 20 de febrero, por el que se establecen determinadas cualificaciones profesionales que se incluyen en el Catálogo nacional de cualificaciones profesionales, así como sus correspondientes módulos formativos que se incorporan al Catálogo modular de formación profesional.",
+            "fichero": [
+                "boe/BOE-2004-295-RD-catalogo-cualificaciones.pdf"
+            ],
+            "web": [
+                "https://www.boe.es/eli/es/rd/2004/02/20/295"
+            ],
+            "ámbito": "España",
+            "publicación": [
+                "BOE",
+                "2004-03-09"
+            ],
+            "vigencia": "vigente",
+            "claves": [
+                "formación profesional",
+                "cualificaciones"
+            ]
+        },
+        {
+            "id": "boe-2005-1087-rd",
+            "incluido": "2019-11-29",
+            "descripción": "Cualificaciones Profesionales de Informática",
+            "titulo": "REAL DECRETO 1087/2005, de 16 de septiembre, por el que se establecen nuevas cualificaciones profesionales, que se incluyen en el Catálogo nacional de cualificaciones profesionales, así como sus correspondientes módulos formativos, que se incorporan al Catálogo modular de formación profesional, y se actualizan determinadas cualificaciones profesionales de las establecidas por el Real Decreto 295/2004, de 20 de febrero.",
+            "fichero": [
+                "boe/BOE-2005-1087-RD-catalogo-cualificaciones.pdf"
+            ],
+            "web": [
+                "https://www.boe.es/eli/es/rd/2005/09/16/1087"
+            ],
+            "ámbito": "España",
+            "publicación": [
+                "BOE",
+                "2005-10-05"
+            ],
+            "vigencia": "vigente",
+            "claves": [
+                "formación profesional",
+                "cualificaciones"
+            ]
         }
     ]
 }

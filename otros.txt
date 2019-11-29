@@ -1,0 +1,17 @@
+Enlaces para mirar
+
+APICV GitHub
+https://github.com/apicv
+
+Sort a JSON using Python
+https://stackoverflow.com/questions/43255909/sort-a-json-using-python
+
+Normativa:
+https://www.edudactica.es/normas/Buscaf2.php
+
+How to Create a Flawless Responsive Post Grid with Flexbox
+https://blog.fullstackdigital.com/how-to-create-a-flawless-responsive-post-grid-with-flexbox-e5c7cc9d28e
+
+7-zip comprimir exceptuando un directorio
+https://sourceforge.net/p/sevenzip/discussion/45798/thread/b9871f84/
+
