@@ -45,6 +45,7 @@ footer {
 }
 
 .disposicion .titulo {
+  hyphens: auto;
   text-align: justify;
   font-size: 90%;
 }

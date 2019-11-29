@@ -291,12 +291,12 @@
                 {
                     "tipo": "original",
                     "fichero": "docv/DOCV-1997-09-08-D-rof-ies.pdf",
-                    "web": "https://www.dogv.gva.es/va/eli/es-vc/d/1997/09/02/234/"
+                    "web": "https://www.dogv.gva.es/es/eli/es-vc/d/1997/09/02/234/"
                 },
                 {
                     "tipo": "consolidado",
-                    "fichero": "",
-                    "web": "https://www.dogv.gva.es/va/eli/es-vc/d/1997/09/02/234/con/"
+                    "fichero": "docv/DOCV-1997-09-08-D-rof-ies-consolidado-2012-08-06.pdf",
+                    "web": "https://www.dogv.gva.es/es/eli/es-vc/d/1997/09/02/234/con/"
                 }
             ],
             "ámbito": "Comunidad Valenciana",
@@ -553,11 +553,6 @@
                     "tipo": "original",
                     "fichero": "docv/DOCV-2019-20-O-inclusion.pdf",
                     "web": "https://www.dogv.gva.es/es/eli/es-vc/o/2019/04/30/20/"
-                },
-                {
-                    "tipo": "consolidado",
-                    "fichero": "",
-                    "web": "https://www.dogv.gva.es/es/eli/es-vc/o/2019/04/30/20/con/"
                 }
             ],
             "ámbito": "Comunidad Valenciana",
@@ -786,6 +781,35 @@
             "claves": [
                 "sociedad de información",
                 "comercio electrónico"
+            ]
+        },
+        {
+            "id": "boe-2014-1105",
+            "incluido": "2019-11-29",
+            "descripción": "Currículo básico ESO y Bachillerato",
+            "titulo": "Real Decreto 1105/2014, de 26 de diciembre, por el que se establece el currículo básico de la Educación Secundaria Obligatoria y del Bachillerato.",
+            "documentos": [
+                {
+                    "tipo": "original",
+                    "fichero": "boe/BOE-2014-1105-RD-curriculum-basico-eso-bachillerato.pdf",
+                    "web": "https://www.boe.es/eli/es/rd/2014/12/26/1105/"
+                },
+                {
+                    "tipo": "consolidado",
+                    "fichero": "boe/BOE-2014-1105-RD-curriculum-basico-eso-bachillerato-consolidado-2017-06-03.pdf",
+                    "web": "https://www.boe.es/eli/es/rd/2014/12/26/1105/con"
+                }
+            ],
+            "ámbito": "España",
+            "publicación": [
+                "BOE",
+                "2015-01-03"
+            ],
+            "vigencia": "vigente",
+            "claves": [
+                "currículo",
+                "primaria",
+                "secundaria"
             ]
         }
     ]

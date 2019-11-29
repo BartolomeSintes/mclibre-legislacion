@@ -62,6 +62,7 @@ def seccion(legislacion, id, titulo):
                     tmp += '\n'
             if elemento["documentos"][0]["web"] != [""]:
                 tmp += f'          <a href="{elemento["documentos"][0]["web"]}">web</a>\n'
+            tmp += "        </p>\n"
         else:
             for documento in elemento["documentos"]:
                 tmp += '        <p class="fichero">\n'
@@ -77,7 +78,7 @@ def seccion(legislacion, id, titulo):
                         tmp += '\n'
                 if documento["web"] != [""]:
                     tmp += f'          <a href="{documento["web"]}">web</a>\n'
-        tmp += "        </p>\n"
+                tmp += "        </p>\n"
         tmp += f'        <p class="titulo">{elemento["titulo"]}</p>\n'
         tmp += "      </article>\n"
         tmp += "\n"
@@ -148,6 +149,7 @@ def guarda_css():
     t += "}\n"
     t += "\n"
     t += ".disposicion .titulo {\n"
+    t += "  hyphens: auto;\n"
     t += "  text-align: justify;\n"
     t += "  font-size: 90%;\n"
     t += "}\n"

@@ -25,3 +25,7 @@ Este repositorio contiene una colección legislativa de interés para profesores
 -   2019-11-29. Hacer alguna herramienta que compruebe si hay legislación consolidada o si hay legislación consolidada posterior y poder actualizar la información.
 
 -   2019-11-29. ¿Incluir en la página la fecha del texto consolidado?
+
+-   2019-11-29. Cuando un documento modifica o sustituye a otro, se podría incluir la referencia.
+
+-   2019-11-29. En la web del docv se puede descargar la legislación en formato rtf. Podría incluirlo, pero hay dos ficheros, uno para el castellano y otro para el valenciano.
