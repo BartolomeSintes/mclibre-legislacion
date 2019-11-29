@@ -1,10 +1,17 @@
-html { font-family: sans-serif; font-size: 110%; }
+html {
+  font-family: sans-serif;
+  font-size: 110%;
+}
 
-li { margin-bottom: 20px; }
+footer {
+  border-top: black 1px solid;
+  padding-top: 5px;
+}
 
-footer { border-top: black 1px solid; padding-top: 5px;}
-
-.derogado { color: red; text-transform: uppercase;}
+.derogado {
+  color: red;
+  text-transform: uppercase;
+}
 
 .disposiciones {
   display: flex;
@@ -28,17 +35,13 @@ footer { border-top: black 1px solid; padding-top: 5px;}
   font-size: 100%;
 }
 
-.disposicion p:nth-child(odd) {
-  background-color: #eee;
-}
-
 .disposicion p {
   margin: 0;
   padding: 5px 10px;
 }
 
-.disposicion .descripcion {
-  font-weight: bold;
+.disposicion .fichero {
+  background-color: #eee;
 }
 
 .disposicion .titulo {

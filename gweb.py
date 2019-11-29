@@ -49,15 +49,24 @@ def seccion(legislacion, id, titulo):
         if elemento["vigencia"] == gconst.DEROGADO:
             tmp += f'          <span class="derogado">derogado</span>\n'
         tmp += "        </p>\n"
-        tmp += '        <p class="fichero">\n'
-        for fichero in elemento["fichero"]:
-            file = pathlib.Path(f"{gconst.DIR_SITE}/{gconst.DIR_FILES}/{fichero}")
+        if len(elemento["documentos"]) == 1:
+            tmp += '        <p class="fichero">\n'
+            file = pathlib.Path(f'{gconst.DIR_SITE}/{gconst.DIR_FILES}/{elemento["documentos"][0]["fichero"]}')
             weight = str(round(file.stat().st_size / 1024 / 1024, 1)) + " MB)"
             formato = file.suffix[1:].upper()
-            tmp += f'          <a href="{gconst.DIR_FILES}/{fichero}">{formato}</a> ({weight}\n'
-        if elemento["web"] != [""]:
-            for pagina in elemento["web"]:
-                tmp += f'          - <a href="{pagina}">web</a>\n'
+            tmp += f'          <a href="{gconst.DIR_FILES}/{elemento["documentos"][0]["fichero"]}">{formato}</a> ({weight}\n'
+            if elemento["documentos"][0]["web"] != [""]:
+                tmp += f'          - <a href="{elemento["documentos"][0]["web"]}">web</a>\n'
+        else:
+            for documento in elemento["documentos"]:
+                tmp += '        <p class="fichero">\n'
+                tmp += f'           {gconst.DOCUMENTOS_TIPOS[documento["tipo"]]}\n'
+                file = pathlib.Path(f'{gconst.DIR_SITE}/{gconst.DIR_FILES}/{documento["fichero"]}')
+                weight = str(round(file.stat().st_size / 1024 / 1024, 1)) + " MB)"
+                formato = file.suffix[1:].upper()
+                tmp += f'          <a href="{gconst.DIR_FILES}/{documento["fichero"]}">{formato}</a> ({weight}\n'
+                if documento["web"] != [""]:
+                    tmp += f'          - <a href="{documento["web"]}">web</a>\n'
         tmp += "        </p>\n"
         tmp += f'        <p class="titulo">{elemento["titulo"]}</p>\n'
         tmp += "      </article>\n"
@@ -82,13 +91,20 @@ def pie():
 
 def guarda_css():
     t = ""
-    t += "html { font-family: sans-serif; font-size: 110%; }\n"
+    t += "html {\n"
+    t += "  font-family: sans-serif;\n"
+    t += "  font-size: 110%;\n"
+    t += "}\n"
     t += "\n"
-    t += "li { margin-bottom: 20px; }\n"
+    t += "footer {\n"
+    t += "  border-top: black 1px solid;\n"
+    t += "  padding-top: 5px;\n"
+    t += "}\n"
     t += "\n"
-    t += "footer { border-top: black 1px solid; padding-top: 5px;}\n"
-    t += "\n"
-    t += ".derogado { color: red; text-transform: uppercase;}\n"
+    t += ".derogado {\n"
+    t += "  color: red;\n"
+    t += "  text-transform: uppercase;\n"
+    t += "}\n"
     t += "\n"
     t += ".disposiciones {\n"
     t += "  display: flex;\n"
@@ -112,17 +128,13 @@ def guarda_css():
     t += "  font-size: 100%;\n"
     t += "}\n"
     t += "\n"
-    t += ".disposicion p:nth-child(odd) {\n"
-    t += "  background-color: #eee;\n"
-    t += "}\n"
-    t += "\n"
     t += ".disposicion p {\n"
     t += "  margin: 0;\n"
     t += "  padding: 5px 10px;\n"
     t += "}\n"
     t += "\n"
-    t += ".disposicion .descripcion {\n"
-    t += "  font-weight: bold;\n"
+    t += ".disposicion .fichero {\n"
+    t += "  background-color: #eee;\n"
     t += "}\n"
     t += "\n"
     t += ".disposicion .titulo {\n"

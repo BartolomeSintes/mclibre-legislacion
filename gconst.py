@@ -43,3 +43,8 @@ CODIGOS_ISO_3166 = {
     "País Vasco": "es-pv",
     "Comunidad Valenciana": "es-vc",
 }
+DOCUMENTOS_TIPOS = {
+    "original": "Original: ",
+    "consolidado": "Consolidado: ",
+    "anexo": "Anexo: "
+}
