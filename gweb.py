@@ -51,22 +51,32 @@ def seccion(legislacion, id, titulo):
         tmp += "        </p>\n"
         if len(elemento["documentos"]) == 1:
             tmp += '        <p class="fichero">\n'
-            file = pathlib.Path(f'{gconst.DIR_SITE}/{gconst.DIR_FILES}/{elemento["documentos"][0]["fichero"]}')
-            weight = str(round(file.stat().st_size / 1024 / 1024, 1)) + " MB)"
-            formato = file.suffix[1:].upper()
-            tmp += f'          <a href="{gconst.DIR_FILES}/{elemento["documentos"][0]["fichero"]}">{formato}</a> ({weight}\n'
+            if elemento["documentos"][0]["fichero"] != "":
+                file = pathlib.Path(f'{gconst.DIR_SITE}/{gconst.DIR_FILES}/{elemento["documentos"][0]["fichero"]}')
+                weight = str(round(file.stat().st_size / 1024 / 1024, 1)) + " MB"
+                formato = file.suffix[1:].upper()
+                tmp += f'          <a href="{gconst.DIR_FILES}/{elemento["documentos"][0]["fichero"]}">{formato}</a> ({weight})'
+                if elemento["documentos"][0]["web"] != [""]:
+                    tmp += ' -\n'
+                else:
+                    tmp += '\n'
             if elemento["documentos"][0]["web"] != [""]:
-                tmp += f'          - <a href="{elemento["documentos"][0]["web"]}">web</a>\n'
+                tmp += f'          <a href="{elemento["documentos"][0]["web"]}">web</a>\n'
         else:
             for documento in elemento["documentos"]:
                 tmp += '        <p class="fichero">\n'
                 tmp += f'           {gconst.DOCUMENTOS_TIPOS[documento["tipo"]]}\n'
-                file = pathlib.Path(f'{gconst.DIR_SITE}/{gconst.DIR_FILES}/{documento["fichero"]}')
-                weight = str(round(file.stat().st_size / 1024 / 1024, 1)) + " MB)"
-                formato = file.suffix[1:].upper()
-                tmp += f'          <a href="{gconst.DIR_FILES}/{documento["fichero"]}">{formato}</a> ({weight}\n'
+                if documento["fichero"] != "":
+                    file = pathlib.Path(f'{gconst.DIR_SITE}/{gconst.DIR_FILES}/{documento["fichero"]}')
+                    weight = str(round(file.stat().st_size / 1024 / 1024, 1)) + " MB"
+                    formato = file.suffix[1:].upper()
+                    tmp += f'          <a href="{gconst.DIR_FILES}/{documento["fichero"]}">{formato}</a> ({weight})'
+                    if documento["web"] != [""]:
+                        tmp += ' -\n'
+                    else:
+                        tmp += '\n'
                 if documento["web"] != [""]:
-                    tmp += f'          - <a href="{documento["web"]}">web</a>\n'
+                    tmp += f'          <a href="{documento["web"]}">web</a>\n'
         tmp += "        </p>\n"
         tmp += f'        <p class="titulo">{elemento["titulo"]}</p>\n'
         tmp += "      </article>\n"
