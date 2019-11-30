@@ -1,6 +1,6 @@
 {
     "comments": {
-        "última modificación": "2019-11-29",
+        "última modificación": "2019-11-30",
         "descripción": "Legislación relacionada con la informática (educación, etc.)",
         "aviso": "El formato de este json está todavía en elaboración. Probablemente sufra modificaciones."
     },
@@ -9,21 +9,30 @@
             "id": "boe-2008-1691-rd",
             "incluido": "2019-11-24",
             "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2008-11-17",
+            "vigencia": "vigente",
             "descripción": "Decreto del Título de SMR",
             "titulo": "Real Decreto 1691/2007, de 14 de diciembre, por el que se establece el título de Técnico en Sistemas Microinformáticos y Redes y se fijan sus enseñanzas mínimas.",
-            "documentos": [
+            "versiones": [
                 {
-                    "tipo": "original",
-                    "fichero": "boe/BOE-2007-1691-RD-FP-SMR-titulo.pdf",
-                    "web": "https://www.boe.es/eli/es/rd/2007/12/14/1691"
+                    "versión": "original",
+                    "fecha": "2008-11-17",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2007-1691-RD-FP-SMR-titulo.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2007/12/14/1691"
+                        }
+                    ]
                 }
             ],
-            "publicación": [
-                "BOE",
-                "2008-11-17"
-            ],
-            "ámbito": "España",
-            "vigencia": "vigente",
             "claves": [
                 "españa",
                 "real decreto",
@@ -37,21 +46,30 @@
             "id": "boe-2009-1629-rd",
             "incluido": "2019-11-24",
             "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2009-11-18",
+            "vigencia": "vigente",
             "descripción": "Decreto del Título de ASIR",
             "titulo": "Real Decreto 1629/2009, de 30 de octubre, por el que se establece el título de Técnico Superior en Administración de Sistemas Informáticos en Red y se fijan sus enseñanzas mínimas.",
-            "documentos": [
+            "versiones": [
                 {
-                    "tipo": "original",
-                    "fichero": "boe/BOE-2009-1629-RD-FP-ASIR-titulo.pdf",
-                    "web": "https://www.boe.es/eli/es/rd/2009/10/30/1629"
+                    "versión": "original",
+                    "fecha": "2009-11-18",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2009-1629-RD-FP-ASIR-titulo.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2009/10/30/1629"
+                        }
+                    ]
                 }
             ],
-            "ámbito": "España",
-            "publicación": [
-                "BOE",
-                "2009-11-18"
-            ],
-            "vigencia": "vigente",
             "claves": [
                 "españa",
                 "real decreto",
@@ -65,21 +83,30 @@
             "id": "boe-2010-450-rd",
             "incluido": "2019-11-24",
             "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2010-05-20",
+            "vigencia": "vigente",
             "descripción": "Decreto del Título de DAM",
             "titulo": "Real Decreto 450/2010, de 16 de abril, por el que se establece el título de Técnico Superior en Desarrollo de Aplicaciones Multiplataforma y se fijan sus enseñanzas mínimas.",
-            "documentos": [
+            "versiones": [
                 {
-                    "tipo": "original",
-                    "fichero": "boe/BOE-2010-450-RD-FP-DAM-titulo.pdf",
-                    "web": "https://www.boe.es/eli/es/rd/2010/04/16/450"
+                    "versión": "original",
+                    "fecha": "2010-05-20",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2010-450-RD-FP-DAM-titulo.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2010/04/16/450"
+                        }
+                    ]
                 }
             ],
-            "ámbito": "España",
-            "publicación": [
-                "BOE",
-                "2010-05-20"
-            ],
-            "vigencia": "vigente",
             "claves": [
                 "españa",
                 "real decreto",
@@ -92,22 +119,31 @@
         {
             "id": "boe-2010-686-rd",
             "incluido": "2019-11-24",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2010-06-12",
             "modificado": "",
+            "vigencia": "vigente",
             "descripción": "Decreto del Título de DAW",
             "titulo": "Real Decreto 686/2010, de 20 de mayo, por el que se establece el título de Técnico Superior en Desarrollo de Aplicaciones Web y se fijan sus enseñanzas mínimas.",
-            "documentos": [
+            "versiones": [
                 {
-                    "tipo": "original",
-                    "fichero": "boe/BOE-2010-686-RD-FP-DAW-titulo.pdf",
-                    "web": "https://www.boe.es/eli/es/o/2010/11/02/edu2887"
+                    "versión": "original",
+                    "fecha": "2010-06-12",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2010-686-RD-FP-DAW-titulo.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2010/11/02/edu2887"
+                        }
+                    ]
                 }
             ],
-            "ámbito": "España",
-            "publicación": [
-                "BOE",
-                "2010-06-12"
-            ],
-            "vigencia": "vigente",
             "claves": [
                 "españa",
                 "real decreto",
@@ -121,21 +157,30 @@
             "id": "boe-1990-1-lo",
             "incluido": "2019-11-26",
             "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1990-10-04",
+            "vigencia": "derogado",
             "descripción": "LOGSE",
             "titulo": "Ley orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo",
-            "documentos": [
+            "versiones": [
                 {
-                    "tipo": "original",
-                    "fichero": "boe/BOE-1990-1-L-LOGSE.pdf",
-                    "web": "https://www.boe.es/eli/es/lo/1990/10/03/1"
+                    "versión": "original",
+                    "fecha": "1990-10-04",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1990-1-L-LOGSE.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/lo/1990/10/03/1"
+                        }
+                    ]
                 }
             ],
-            "ámbito": "España",
-            "publicación": [
-                "BOE",
-                "1990-10-04"
-            ],
-            "vigencia": "derogado",
             "claves": [
                 "españa",
                 "ley orgánica",
@@ -150,21 +195,30 @@
             "id": "boe-1995-9-lo",
             "incluido": "2019-11-26",
             "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1995-11-21",
+            "vigencia": "derogado",
             "descripción": "LOPEG",
             "titulo": "Ley orgánica 9/1995, de 20 de noviembre, de la participación, la evaluación y el gobierno de los centros docentes",
-            "documentos": [
+            "versiones": [
                 {
-                    "tipo": "original",
-                    "fichero": "boe/BOE-1995-9-L-LOPEG.pdf",
-                    "web": "https://www.boe.es/eli/es/lo/1995/11/20/9"
+                    "versión": "original",
+                    "fecha": "1995-11-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1995-9-L-LOPEG.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/lo/1995/11/20/9"
+                        }
+                    ]
                 }
             ],
-            "ámbito": "España",
-            "publicación": [
-                "BOE",
-                "1995-11-21"
-            ],
-            "vigencia": "derogado",
             "claves": [
                 "españa",
                 "ley orgánica",
@@ -179,21 +233,30 @@
             "id": "boe-2002-10-lo",
             "incluido": "2019-11-26",
             "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2002-12-24",
+            "vigencia": "derogado",
             "descripción": "LOCE",
             "titulo": "Ley orgánica 10/2002, de 23 de diciembre, de Calidad de la Educación.",
-            "documentos": [
+            "versiones": [
                 {
-                    "tipo": "original",
-                    "fichero": "boe/BOE-2002-10-L-LOCE.pdf",
-                    "web": "https://www.boe.es/eli/es/lo/2002/12/23/10"
+                    "versión": "original",
+                    "fecha": "2002-12-24",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2002-10-L-LOCE.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/lo/2002/12/23/10"
+                        }
+                    ]
                 }
             ],
-            "ámbito": "España",
-            "publicación": [
-                "BOE",
-                "2002-12-24"
-            ],
-            "vigencia": "derogado",
             "claves": [
                 "españa",
                 "ley orgánica",
@@ -208,26 +271,46 @@
             "id": "boe-2006-2-lo",
             "incluido": "2019-11-26",
             "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2006-05-04",
+            "vigencia": "vigente",
             "descripción": "LOE",
             "titulo": "Ley orgánica 2/2006, de 3 de mayo, de Educación.",
-            "documentos": [
+            "versiones": [
                 {
-                    "tipo": "original",
-                    "fichero": "boe/BOE-2006-2-L-LOE.pdf",
-                    "web": "https://www.boe.es/eli/es/lo/2006/05/03/2"
+                    "versión": "original",
+                    "fecha": "2006-05-04",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2006-2-L-LOE.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/lo/2006/05/03/2"
+                        }
+                    ]
                 },
                 {
-                    "tipo": "consolidado",
-                    "fichero": "boe/BOE-2006-2-L-LOE-consolidado-2018-12-06.pdf",
-                    "web": "https://www.boe.es/eli/es/lo/2006/05/03/2/con"
+                    "versión": "consolidado",
+                    "fecha": "2018-12-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2006-2-L-LOE-consolidado-2018-12-06.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/lo/2006/05/03/2/con"
+                        }
+                    ]
                 }
             ],
-            "ámbito": "España",
-            "publicación": [
-                "BOE",
-                "2006-05-04"
-            ],
-            "vigencia": "vigente",
             "claves": [
                 "españa",
                 "ley orgánica",
@@ -242,26 +325,46 @@
             "id": "boe-2013-8-lo",
             "incluido": "2019-11-26",
             "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2013-12-10",
+            "vigencia": "vigente",
             "descripción": "LOMCE",
             "titulo": "Ley Orgánica 8/2013, de 9 de diciembre, para la mejora de la calidad educativa.",
-            "documentos": [
+            "versiones": [
                 {
-                    "tipo": "original",
-                    "fichero": "boe/BOE-2013-8-L-LOMCE.pdf",
-                    "web": "https://www.boe.es/eli/es/lo/2013/12/09/8"
+                    "versión": "original",
+                    "fecha": "2013-12-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2013-8-L-LOMCE.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/lo/2013/12/09/8"
+                        }
+                    ]
                 },
                 {
-                    "tipo": "consolidado",
-                    "fichero": "boe/BOE-2013-8-L-LOMCE-consolidado-2013-03-23.pdf",
-                    "web": "https://www.boe.es/eli/es/lo/2013/12/09/8/con"
+                    "versión": "consolidado",
+                    "fecha": "2013-03-23",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2013-8-L-LOMCE-consolidado-2013-03-23.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/lo/2013/12/09/8/con"
+                        }
+                    ]
                 }
             ],
-            "ámbito": "España",
-            "publicación": [
-                "BOE",
-                "2013-12-10"
-            ],
-            "vigencia": "vigente",
             "claves": [
                 "españa",
                 "ley orgánica",
@@ -276,21 +379,45 @@
             "id": "docv-2015-69-o",
             "incluido": "2019-11-27",
             "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2015-06-30",
+            "vigencia": "vigente",
             "descripción": "Plantillas Secundaria",
             "titulo": "Orden 69/2015, de 25 de junio, de la Consellería de Educación, Cultura y Deporte, por la que se establecen criterios para la dotación de plantillas y para la determinación de condiciones de trabajo del profesorado de los centros docentes públicos que imparten ESO, Bachillerato y Formación Profesional, dependientes de la consellería competente en materia de educación.",
-            "documentos": [
+            "versiones": [
                 {
-                    "tipo": "original",
-                    "fichero": "docv/DOCV-2015-69-O-plantillas-secundaria.pdf",
-                    "web": "https://www.dogv.gva.es/es/eli/es-vc/o/2015/06/25/69/"
+                    "versión": "original",
+                    "fecha": "2015-06-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "docv/DOCV-2015-69-O-plantillas-secundaria.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2015/06/25/69/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/va/eli/es-vc/o/2015/06/25/69/"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "docv/DOCV-2015-69-O-plantillas-secundaria.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "docv/DOCV-2015-69-O-plantillas-secundaria-va.rtf"
+                        }
+                    ]
                 }
             ],
-            "ámbito": "Comunidad Valenciana",
-            "publicación": [
-                "DOCV",
-                "2015-06-30"
-            ],
-            "vigencia": "vigente",
             "claves": [
                 "comunidad valenciana",
                 "orden",
@@ -305,26 +432,46 @@
             "id": "docv-1997-234-d",
             "incluido": "2019-11-27",
             "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "1997-09-08",
+            "vigencia": "vigente",
             "descripción": "ROF centros de secundaria",
             "titulo": "Decreto 234/1997, de 2 de septiembre, del Gobierno Valenciano, por el que se aprueba el Reglamento orgánico y funcional de los institutos de educación secundaria.",
-            "documentos": [
+            "versiones": [
                 {
-                    "tipo": "original",
-                    "fichero": "docv/DOCV-1997-09-08-D-rof-ies.pdf",
-                    "web": "https://www.dogv.gva.es/es/eli/es-vc/d/1997/09/02/234/"
+                    "versión": "original",
+                    "fecha": "1997-09-08",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "docv/DOCV-1997-09-08-D-rof-ies.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/1997/09/02/234/"
+                        }
+                    ]
                 },
                 {
-                    "tipo": "consolidado",
-                    "fichero": "docv/DOCV-1997-09-08-D-rof-ies-consolidado-2012-08-06.pdf",
-                    "web": "https://www.dogv.gva.es/es/eli/es-vc/d/1997/09/02/234/con/"
+                    "versión": "consolidado",
+                    "fecha": "2012-08-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "docv/DOCV-1997-09-08-D-rof-ies-consolidado-2012-08-06.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/1997/09/02/234/con/"
+                        }
+                    ]
                 }
             ],
-            "ámbito": "Comunidad Valenciana",
-            "publicación": [
-                "DOCV",
-                "1997-09-08"
-            ],
-            "vigencia": "vigente",
             "claves": [
                 "comunidad valenciana",
                 "decreto",
@@ -339,21 +486,30 @@
             "id": "boe-2015-665-rd",
             "incluido": "2019-11-27",
             "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2015-07-18",
+            "vigencia": "vigente",
             "descripción": "Especialidades de secundaria",
             "titulo": "Real Decreto 665/2015, de 17 de julio, por el que se desarrollan determinadas disposiciones relativas al ejercicio de la docencia en la Educación Secundaria Obligatoria, el Bachillerato, la Formación Profesional y las enseñanzas de régimen especial, a la formación inicial del profesorado y a las especialidades de los cuerpos docentes de Enseñanza Secundaria.",
-            "documentos": [
+            "versiones": [
                 {
-                    "tipo": "original",
-                    "fichero": "boe/BOE-2015-665-RD-especialidades-secundaria.pdf",
-                    "web": "https://www.boe.es/eli/es/rd/2015/07/17/665"
+                    "versión": "original",
+                    "fecha": "2015-07-18",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2015-665-RD-especialidades-secundaria.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2015/07/17/665"
+                        }
+                    ]
                 }
             ],
-            "ámbito": "España",
-            "publicación": [
-                "BOE",
-                "2015-07-18"
-            ],
-            "vigencia": "vigente",
             "claves": [
                 "españa",
                 "real decreto",
@@ -371,21 +527,30 @@
             "id": "celex-2018-05-22-rec",
             "incluido": "2019-11-28",
             "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2018-06-04",
+            "vigencia": "vigente",
             "descripción": "Competencias clave",
             "titulo": "Recomendación del Consejo de 22 de mayo de 2018 relativa a las competencias clave para el aprendizaje permanente",
-            "documentos": [
+            "versiones": [
                 {
-                    "tipo": "original",
-                    "fichero": "eur-lex/EURLEX-2018-05-22-R-competencias-clave-es.pdf",
-                    "web": "https://eur-lex.europa.eu/legal-content/es/TXT/?uri=CELEX:32018H0604(01)"
+                    "versión": "original",
+                    "fecha": "2018-06-04",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2018-05-22-R-competencias-clave-es.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/es/TXT/?uri=CELEX:32018H0604(01)"
+                        }
+                    ]
                 }
             ],
-            "ámbito": "Unión Europea",
-            "publicación": [
-                "DOCE",
-                "2018-06-04"
-            ],
-            "vigencia": "vigente",
             "claves": [
                 "unión europea",
                 "recomendación",
@@ -398,26 +563,46 @@
             "id": "boe-2002-5-lo",
             "incluido": "2019-11-28",
             "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2002-06-21",
+            "vigencia": "vigente",
             "descripción": "Ley Cualificaciones y FP",
             "titulo": "Ley Orgánica 5/2002, de 19 de junio, de las Cualificaciones y de la Formación Profesional.",
-            "documentos": [
+            "versiones": [
                 {
-                    "tipo": "original",
-                    "fichero": "boe/BOE-2002-5-L-cualificaciones-fp.pdf",
-                    "web": "https://www.boe.es/eli/es/lo/2002/06/19/5/"
+                    "versión": "original",
+                    "fecha": "2002-06-21",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2002-5-L-cualificaciones-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/lo/2002/06/19/5/"
+                        }
+                    ]
                 },
                 {
-                    "tipo": "consolidado",
-                    "fichero": "boe/BOE-2002-5-L-cualificaciones-fp-consolidado-2012-06-20.pdf",
-                    "web": "https://www.boe.es/eli/es/lo/2002/06/19/5/con"
+                    "versión": "consolidado",
+                    "fecha": "2012-06-20",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2002-5-L-cualificaciones-fp-consolidado-2012-06-20.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/lo/2002/06/19/5/con"
+                        }
+                    ]
                 }
             ],
-            "ámbito": "España",
-            "publicación": [
-                "BOE",
-                "2002-06-21"
-            ],
-            "vigencia": "vigente",
             "claves": [
                 "españa",
                 "ley orgánica",
@@ -429,21 +614,30 @@
             "id": "boe-2015-1636-o",
             "incluido": "2019-11-28",
             "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2015-08-04",
+            "vigencia": "vigente",
             "descripción": "Cualificaciones profesionales Informática",
             "titulo": "Orden PRE/1636/2015,de 23 de julio, por la que se actualizan dieciocho cualificaciones profesionales de la familia profesional Informática y Comunicaciones, recogidas en el Catálogo Nacional de Cualificaciones Profesionales, establecidas por Real Decreto 295/2004, de 20 de febrero, Real Decreto 1087/2005, de 16 de septiembre, Real Decreto 1201/2007, de 14 de septiembre y Real Decreto 1701/2007, de 14 de diciembre; y se modifican parcialmente determinados anexos establecidos por Real Decreto 295/2004, de 20 de febrero, Real Decreto 1087/2005, de 16 de septiembre y Real Decreto 1201/2007, de 14 de septiembre.",
-            "documentos": [
+            "versiones": [
                 {
-                    "tipo": "original",
-                    "fichero": "boe/BOE-2015-1636-O-catalogo-cualificaciones.pdf",
-                    "web": "https://www.boe.es/eli/es/o/2015/07/23/pre1636"
+                    "versión": "original",
+                    "fecha": "2015-08-04",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2015-1636-O-catalogo-cualificaciones.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2015/07/23/pre1636"
+                        }
+                    ]
                 }
             ],
-            "ámbito": "España",
-            "publicación": [
-                "BOE",
-                "2015-08-04"
-            ],
-            "vigencia": "vigente",
             "claves": [
                 "españa",
                 "orden",
@@ -455,21 +649,30 @@
             "id": "boe-2019-479-o-pci",
             "incluido": "2019-11-28",
             "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2019-04-27",
+            "vigencia": "vigente",
             "descripción": "Cualificaciones profesionales Informática",
             "titulo": "Orden PCI/479/2019, de 12 de abril, por la que se actualizan cualificaciones profesionales de la familia profesional informática y comunicaciones, recogidas en el Catálogo Nacional de Cualificaciones Profesionales, establecidas por el Real Decreto 295/2004, de 20 de febrero, el Real Decreto 1087/2005, de 16 de septiembre, y el Real Decreto 1201/2007, de 14 de septiembre.",
-            "documentos": [
+            "versiones": [
                 {
-                    "tipo": "original",
-                    "fichero": "boe/BOE-2019-479-O-PCI-catalogo-cualificaciones.pdf",
-                    "web": "https://www.boe.es/eli/es/o/2019/04/12/pci479"
+                    "versión": "original",
+                    "fecha": "2019-04-27",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2019-479-O-PCI-catalogo-cualificaciones.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/o/2019/04/12/pci479"
+                        }
+                    ]
                 }
             ],
-            "ámbito": "España",
-            "publicación": [
-                "BOE",
-                "2019-04-27"
-            ],
-            "vigencia": "vigente",
             "claves": [
                 "españa",
                 "orden PCI",
@@ -481,21 +684,30 @@
             "id": "docv-2009-07-29-o",
             "incluido": "2019-11-28",
             "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2009-09-03",
+            "vigencia": "vigente",
             "descripción": "Curículo SMR (CV)",
             "titulo": "Orden de 29 de julio 2009, de la Conselleria de Educación, por la que se establece para la Comunitat Valenciana el currículo del ciclo formativo de Grado Medio correspondiente al título de Técnico en Sistemas Microinformáticos y Redes.",
-            "documentos": [
+            "versiones": [
                 {
-                    "tipo": "original",
-                    "fichero": "docv/DOCV-2009-07-29-O-FP-SMR-curriculo.pdf",
-                    "web": "https://www.dogv.gva.es/es/eli/es-vc/o/2009/07/29/(11)/"
+                    "versión": "original",
+                    "fecha": "2009-09-03",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "docv/DOCV-2009-07-29-O-FP-SMR-curriculo.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2009/07/29/(11)/"
+                        }
+                    ]
                 }
             ],
-            "ámbito": "Comunidad Valenciana",
-            "publicación": [
-                "DOCV",
-                "2009-09-03"
-            ],
-            "vigencia": "vigente",
             "claves": [
                 "comunidad valenciana",
                 "orden",
@@ -509,21 +721,30 @@
             "id": "docv-2012-36-o",
             "incluido": "2019-11-28",
             "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2012-07-06",
+            "vigencia": "vigente",
             "descripción": "Curículo ASIR (CV)",
             "titulo": "Orden 36/2012, de 22 de junio, de la Conselleria de Educación, Formación y Empleo, por la que se establece para la Comunitat Valenciana el currículo del ciclo formativo de grado superior correspondiente al título de Técnico Superior en Administración de Sistemas Informáticos en Red.",
-            "documentos": [
+            "versiones": [
                 {
-                    "tipo": "original",
-                    "fichero": "docv/DOCV-2012-36-O_FP_ASIR_curriculo.pdf",
-                    "web": "https://www.dogv.gva.es/es/eli/es-vc/o/2012/06/22/36/"
+                    "versión": "original",
+                    "fecha": "2012-07-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "docv/DOCV-2012-36-O_FP_ASIR_curriculo.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2012/06/22/36/"
+                        }
+                    ]
                 }
             ],
-            "ámbito": "Comunidad Valenciana",
-            "publicación": [
-                "DOCV",
-                "2012-07-06"
-            ],
-            "vigencia": "vigente",
             "claves": [
                 "comunidad valenciana",
                 "orden",
@@ -537,21 +758,30 @@
             "id": "docv-2012-58-o",
             "incluido": "2019-11-28",
             "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2012-09-24",
+            "vigencia": "vigente",
             "descripción": "Curículo DAM (CV)",
             "titulo": "Orden 58/2012, de 5 de septiembre, de la Conselleria de Educación, Formación y Empleo, por la que se establece para la Comunitat Valenciana el currículo del ciclo formativo de grado superior correspondiente al título de Técnico Superior en Desarrollo de Aplicaciones Multiplataforma.",
-            "documentos": [
+            "versiones": [
                 {
-                    "tipo": "original",
-                    "fichero": "docv/DOCV-2012-58-O-FP-DAM-curriculo.pdf",
-                    "web": "https://www.dogv.gva.es/es/eli/es-vc/o/2012/09/05/58/"
+                    "versión": "original",
+                    "fecha": "2012-09-24",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "docv/DOCV-2012-58-O-FP-DAM-curriculo.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2012/09/05/58/"
+                        }
+                    ]
                 }
             ],
-            "ámbito": "Comunidad Valenciana",
-            "publicación": [
-                "DOCV",
-                "2012-09-24"
-            ],
-            "vigencia": "vigente",
             "claves": [
                 "comunidad valenciana",
                 "orden",
@@ -565,21 +795,30 @@
             "id": "docv-2012-60-o",
             "incluido": "2019-11-28",
             "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2012-10-08",
+            "vigencia": "vigente",
             "descripción": "Curículo DAW (CV)",
             "titulo": "Orden 60/2012, de 25 de septiembre, de la Conselleria de Educación, Formación y Empleo por la que se establece para la Comunitat Valenciana el currículo del ciclo formativo de Grado Superior correspondiente al título de Técnico Superior en Desarrollo de Aplicaciones Web.",
-            "documentos": [
+            "versiones": [
                 {
-                    "tipo": "original",
-                    "fichero": "docv/DOCV-2012-60-O-FP-DAW-curriculo.pdf",
-                    "web": "https://www.dogv.gva.es/es/eli/es-vc/o/2012/09/25/60/"
+                    "versión": "original",
+                    "fecha": "2012-10-08",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "docv/DOCV-2012-60-O-FP-DAW-curriculo.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2012/09/25/60/"
+                        }
+                    ]
                 }
             ],
-            "ámbito": "Comunidad Valenciana",
-            "publicación": [
-                "DOCV",
-                "2012-10-08"
-            ],
-            "vigencia": "vigente",
             "claves": [
                 "comunidad valenciana",
                 "orden",
@@ -593,21 +832,30 @@
             "id": "docv-2019-20-o",
             "incluido": "2019-11-28",
             "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2019-05-03",
+            "vigencia": "vigente",
             "descripción": "Inclusión (CV)",
             "titulo": "Orden 20/2019, de 30 de abril, de la Conselleria de Educación, Investigación, Cultura y Deporte, por la cual se regula la organización de la respuesta educativa para la inclusión del alumnado en los centros docentes sostenidos con fondos públicos del sistema educativo valenciano.",
-            "documentos": [
+            "versiones": [
                 {
-                    "tipo": "original",
-                    "fichero": "docv/DOCV-2019-20-O-inclusion.pdf",
-                    "web": "https://www.dogv.gva.es/es/eli/es-vc/o/2019/04/30/20/"
+                    "versión": "original",
+                    "fecha": "2019-05-03",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "docv/DOCV-2019-20-O-inclusion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2019/04/30/20/"
+                        }
+                    ]
                 }
             ],
-            "ámbito": "Comunidad Valenciana",
-            "publicación": [
-                "DOCV",
-                "2019-05-03"
-            ],
-            "vigencia": "vigente",
             "claves": [
                 "comunidad valenciana",
                 "orden",
@@ -621,21 +869,30 @@
             "id": "boe-1993-676-rd",
             "incluido": "2019-11-28",
             "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1993-05-22",
+            "vigencia": "derogado",
             "descripción": "Títulos y enseñanzas mínimas FP",
             "titulo": "Real Decreto 676/1993, de 7 de mayo, por el que se establecen directrices generales sobre los títulos y las correspondientes enseñanzas mínimas de formación profesional.",
-            "documentos": [
+            "versiones": [
                 {
-                    "tipo": "original",
-                    "fichero": "boe/BOE-1993-676-RD-titulos-fp.pdf",
-                    "web": "https://www.boe.es/eli/es/rd/1993/05/07/676"
+                    "versión": "original",
+                    "fecha": "1993-05-22",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1993-676-RD-titulos-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1993/05/07/676"
+                        }
+                    ]
                 }
             ],
-            "ámbito": "España",
-            "publicación": [
-                "BOE",
-                "1993-05-22"
-            ],
-            "vigencia": "derogado",
             "claves": [
                 "españa",
                 "real decreto",
@@ -648,21 +905,30 @@
             "id": "boe-1998-777-rd",
             "incluido": "2019-11-28",
             "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1998-05-08",
+            "vigencia": "vigente",
             "descripción": "Ordenación FP",
             "titulo": "Real Decreto 777/1998, de 30 de abril, por el que se desarrollan determinados aspectos de la ordenación de la formación profesional en el ámbito del sistema educativo.",
-            "documentos": [
+            "versiones": [
                 {
-                    "tipo": "original",
-                    "fichero": "boe/BOE-1998-777-RD-ordenacion-fp.pdf",
-                    "web": "https://www.boe.es/eli/es/rd/1998/04/30/777"
+                    "versión": "original",
+                    "fecha": "1998-05-08",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1998-777-RD-ordenacion-fp.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1998/04/30/777"
+                        }
+                    ]
                 }
             ],
-            "ámbito": "España",
-            "publicación": [
-                "BOE",
-                "1998-05-08"
-            ],
-            "vigencia": "vigente",
             "claves": [
                 "españa",
                 "real decreto",
@@ -674,26 +940,46 @@
             "id": "boe-2003-1128-rd",
             "incluido": "2019-11-29",
             "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2003-09-17",
+            "vigencia": "vigente",
             "descripción": "Catálogo Cualificaciones Profesionales",
             "titulo": "Real Decreto 1128/2003, de 5 de septiembre, por el que se regula el Catálogo Nacional de Cualificaciones Profesionales.",
-            "documentos": [
+            "versiones": [
                 {
-                    "tipo": "original",
-                    "fichero": "boe/BOE-2003-1128-RD-catalogo-cualificaciones.pdf",
-                    "web": "https://www.boe.es/eli/es/rd/2003/09/05/1128"
+                    "versión": "original",
+                    "fecha": "2003-09-17",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2003-1128-RD-catalogo-cualificaciones.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2003/09/05/1128"
+                        }
+                    ]
                 },
                 {
-                    "tipo": "consolidado",
-                    "fichero": "boe/BOE-2003-1128-RD-catalogo-cualificaciones-consolidado-2005-12-03.pdf",
-                    "web": "https://www.boe.es/eli/es/rd/2003/09/05/1128/con"
+                    "versión": "consolidado",
+                    "fecha": "2005-12-03",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2003-1128-RD-catalogo-cualificaciones-consolidado-2005-12-03.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2003/09/05/1128/con"
+                        }
+                    ]
                 }
             ],
-            "ámbito": "España",
-            "publicación": [
-                "BOE",
-                "2003-09-17"
-            ],
-            "vigencia": "vigente",
             "claves": [
                 "españa",
                 "real decreto",
@@ -706,26 +992,46 @@
             "id": "boe-2004-295-rd",
             "incluido": "2019-11-29",
             "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2004-03-09",
+            "vigencia": "vigente",
             "descripción": "Cualificaciones Profesionales de Informática",
             "titulo": "Real Decreto 295/2004, de 20 de febrero, por el que se establecen determinadas cualificaciones profesionales que se incluyen en el Catálogo nacional de cualificaciones profesionales, así como sus correspondientes módulos formativos que se incorporan al Catálogo modular de formación profesional.",
-            "documentos": [
+            "versiones": [
                 {
-                    "tipo": "original",
-                    "fichero": "boe/BOE-2004-295-RD-catalogo-cualificaciones.pdf",
-                    "web": "https://www.boe.es/eli/es/rd/2004/02/20/295"
+                    "versión": "original",
+                    "fecha": "2004-03-09",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2004-295-RD-catalogo-cualificaciones.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2004/02/20/295"
+                        }
+                    ]
                 },
                 {
-                    "tipo": "anexo",
-                    "fichero": "boe/BOE-2004-295-RD-anexo-catalogo-cualificaciones.pdf",
-                    "web": "https://www.boe.es/eli/es/rd/2004/02/20/295"
+                    "versión": "anexo",
+                    "fecha": "2004-03-09",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2004-295-RD-anexo-catalogo-cualificaciones.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2004/02/20/295"
+                        }
+                    ]
                 }
             ],
-            "ámbito": "España",
-            "publicación": [
-                "BOE",
-                "2004-03-09"
-            ],
-            "vigencia": "vigente",
             "claves": [
                 "españa",
                 "real decreto",
@@ -738,26 +1044,46 @@
             "id": "boe-2005-1087-rd",
             "incluido": "2019-11-29",
             "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2005-10-05",
+            "vigencia": "vigente",
             "descripción": "Cualificaciones Profesionales de Informática",
             "titulo": "Real Decreto 1087/2005, de 16 de septiembre, por el que se establecen nuevas cualificaciones profesionales, que se incluyen en el Catálogo nacional de cualificaciones profesionales, así como sus correspondientes módulos formativos, que se incorporan al Catálogo modular de formación profesional, y se actualizan determinadas cualificaciones profesionales de las establecidas por el Real Decreto 295/2004, de 20 de febrero.",
-            "documentos": [
+            "versiones": [
                 {
-                    "tipo": "original",
-                    "fichero": "boe/BOE-2005-1087-RD-catalogo-cualificaciones.pdf",
-                    "web": "https://www.boe.es/eli/es/rd/2005/09/16/1087"
+                    "versión": "original",
+                    "fecha": "2005-10-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2005-1087-RD-catalogo-cualificaciones.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2005/09/16/1087"
+                        }
+                    ]
                 },
                 {
-                    "tipo": "anexo",
-                    "fichero": "boe/BOE-2005-1087-RD-anexos-catalogo-cualificaciones.pdf",
-                    "web": "https://www.boe.es/eli/es/rd/2005/09/16/1087"
+                    "versión": "anexo",
+                    "fecha": "2005-10-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2005-1087-RD-anexos-catalogo-cualificaciones.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2005/09/16/1087"
+                        }
+                    ]
                 }
             ],
-            "ámbito": "España",
-            "publicación": [
-                "BOE",
-                "2005-10-05"
-            ],
-            "vigencia": "vigente",
             "claves": [
                 "españa",
                 "real decreto",
@@ -770,26 +1096,46 @@
             "id": "boe-2018-16673-lo",
             "incluido": "2019-11-29",
             "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2018-12-06",
+            "vigencia": "vigente",
             "descripción": "LOPD",
             "titulo": "Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales.",
-            "documentos": [
+            "versiones": [
                 {
-                    "tipo": "original",
-                    "fichero": "boe/BOE-2018-3-LO-LOPD.pdf",
-                    "web": "https://www.boe.es/eli/es/lo/2018/12/05/3"
+                    "versión": "original",
+                    "fecha": "2018-12-06",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2018-3-LO-LOPD.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/lo/2018/12/05/3"
+                        }
+                    ]
                 },
                 {
-                    "tipo": "consolidado",
-                    "fichero": "boe/BOE-2018-3-LO-LOPD-consolidado-2019-06-25.pdf",
-                    "web": "https://www.boe.es/eli/es/lo/2018/12/05/3/con"
+                    "versión": "consolidado",
+                    "fecha": "2019-06-25",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2018-3-LO-LOPD-consolidado-2019-06-25.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/lo/2018/12/05/3/con"
+                        }
+                    ]
                 }
             ],
-            "ámbito": "España",
-            "publicación": [
-                "BOE",
-                "2018-12-06"
-            ],
-            "vigencia": "vigente",
             "claves": [
                 "españa",
                 "ley orgánica",
@@ -801,21 +1147,30 @@
             "id": "celex-2016-679-reg",
             "incluido": "2019-11-29",
             "modificado": "",
+            "ámbito": "Unión Europea",
+            "origen": "DOCE",
+            "fecha": "2016-05-04",
+            "vigencia": "vigente",
             "descripción": "Reglamento Protección de datos",
             "titulo": "Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo de 27 de abril de 2016 relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos y por el que se deroga la Directiva 95/46/CE (Reglamento general de protección de datos)",
-            "documentos": [
+            "versiones": [
                 {
-                    "tipo": "original",
-                    "fichero": "eur-lex/EURLEX-2016-679-R-proteccion-datos-es.pdf",
-                    "web": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=celex:32016R0679"
+                    "versión": "original",
+                    "fecha": "2016-05-04",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "eur-lex/EURLEX-2016-679-R-proteccion-datos-es.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=celex:32016R0679"
+                        }
+                    ]
                 }
             ],
-            "ámbito": "Unión Europea",
-            "publicación": [
-                "DOCE",
-                "2016-05-04"
-            ],
-            "vigencia": "vigente",
             "claves": [
                 "unión europea",
                 "reglamento",
@@ -827,26 +1182,46 @@
             "id": "boe-2202-34-l",
             "incluido": "2019-11-29",
             "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2002-07-12",
+            "vigencia": "vigente",
             "descripción": "Sociedad de información",
             "titulo": "Ley 34/2002, de 11 de julio, de servicios de la sociedad de la información y de comercio electrónico.",
-            "documentos": [
+            "versiones": [
                 {
-                    "tipo": "original",
-                    "fichero": "boe/BOE-2002-34-L-sociedad-informacion.pdf",
-                    "web": "https://www.boe.es/eli/es/l/2002/07/11/34/"
+                    "versión": "original",
+                    "fecha": "2002-07-12",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2002-34-L-sociedad-informacion.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/l/2002/07/11/34/"
+                        }
+                    ]
                 },
                 {
-                    "tipo": "consolidado",
-                    "fichero": "boe/BOE-2002-34-L-sociedad-informacion-consolidado-2014-05-10.pdf",
-                    "web": "https://www.boe.es/eli/es/l/2002/07/11/34/con"
+                    "versión": "consolidado",
+                    "fecha": "",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2002-34-L-sociedad-informacion-consolidado-2014-05-10.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/l/2002/07/11/34/con"
+                        }
+                    ]
                 }
             ],
-            "ámbito": "España",
-            "publicación": [
-                "BOE",
-                "2002-07-12"
-            ],
-            "vigencia": "vigente",
             "claves": [
                 "españa",
                 "ley",
@@ -858,26 +1233,46 @@
             "id": "boe-2014-1105-rd",
             "incluido": "2019-11-29",
             "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2015-01-03",
+            "vigencia": "vigente",
             "descripción": "Currículo básico ESO y Bachillerato",
             "titulo": "Real Decreto 1105/2014, de 26 de diciembre, por el que se establece el currículo básico de la Educación Secundaria Obligatoria y del Bachillerato.",
-            "documentos": [
+            "versiones": [
                 {
-                    "tipo": "original",
-                    "fichero": "boe/BOE-2014-1105-RD-curriculum-basico-eso-bachillerato.pdf",
-                    "web": "https://www.boe.es/eli/es/rd/2014/12/26/1105/"
+                    "versión": "original",
+                    "fecha": "2015-01-03",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2014-1105-RD-curriculum-basico-eso-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2014/12/26/1105/"
+                        }
+                    ]
                 },
                 {
-                    "tipo": "consolidado",
-                    "fichero": "boe/BOE-2014-1105-RD-curriculum-basico-eso-bachillerato-consolidado-2017-06-03.pdf",
-                    "web": "https://www.boe.es/eli/es/rd/2014/12/26/1105/con"
+                    "versión": "consolidado",
+                    "fecha": "2017-06-03",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2014-1105-RD-curriculum-basico-eso-bachillerato-consolidado-2017-06-03.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2014/12/26/1105/con"
+                        }
+                    ]
                 }
             ],
-            "ámbito": "España",
-            "publicación": [
-                "BOE",
-                "2015-01-03"
-            ],
-            "vigencia": "vigente",
             "claves": [
                 "españa",
                 "real decreto",
@@ -891,26 +1286,46 @@
             "id": "docv-2015-87-d",
             "incluido": "2019-11-30",
             "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2015-06-10",
+            "vigencia": "vigente",
             "descripción": "Currículo ESO y Bachillerato",
             "titulo": "Decreto 87/2015, de 5 de junio, del Consell, por el que establece el currículo y desarrolla la ordenación general de la Educación Secundaria Obligatoria y del Bachillerato en la Comunitat Valenciana.",
-            "documentos": [
+            "versiones": [
                 {
-                    "tipo": "original",
-                    "fichero": "docv/DOCV-2015-87-D-curriculo-eso-bachillerato.pdf",
-                    "web": "https://www.dogv.gva.es/es/eli/es-vc/d/2015/06/05/87/"
+                    "versión": "original",
+                    "fecha": "2015-06-10",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "docv/DOCV-2015-87-D-curriculo-eso-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2015/06/05/87/"
+                        }
+                    ]
                 },
                 {
-                    "tipo": "consolidado",
-                    "fichero": "docv/DOCV-2015-87-D-curriculo-eso-bachillerato-consolidado-2018-04-30.pdf",
-                    "web": "https://www.dogv.gva.es/es/eli/es-vc/d/2015/06/05/87/con"
+                    "versión": "consolidado",
+                    "fecha": "2018-04-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "docv/DOCV-2015-87-D-curriculo-eso-bachillerato-consolidado-2018-04-30.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2015/06/05/87/con"
+                        }
+                    ]
                 }
             ],
-            "ámbito": "Comunidad Valenciana",
-            "publicación": [
-                "DOCV",
-                "2015-06-10"
-            ],
-            "vigencia": "vigente",
             "claves": [
                 "comunidad valenciana",
                 "decreto",
@@ -924,21 +1339,30 @@
             "id": "docv-2015-136-d",
             "incluido": "2019-11-30",
             "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2015-09-09",
+            "vigencia": "vigente",
             "descripción": "Currículo ESO y Bachillerato",
             "titulo": "Decreto 136/2015, de 4 de septiembre, del Consell, por el que se modifican el Decreto 108/2014, de 4 de julio, del Consell, por el que se establece el currículo y desarrolla la ordenación general de la Educación Primaria en la Comunitat Valenciana, y el Decreto 87/2015, de 5 de junio, del Consell, por el que se establece el currículo y se desarrolla la ordenación general de la Educación Secundaria Obligatoria y del Bachillerato en la Comunitat Valenciana",
-            "documentos": [
+            "versiones": [
                 {
-                    "tipo": "original",
-                    "fichero": "docv/DOCV-2015-136-D-curriculo-eso-bachillerato.pdf",
-                    "web": "https://www.dogv.gva.es/es/eli/es-vc/d/2015/09/04/136/"
+                    "versión": "original",
+                    "fecha": "2015-09-09",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "docv/DOCV-2015-136-D-curriculo-eso-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2015/09/04/136/"
+                        }
+                    ]
                 }
             ],
-            "ámbito": "Comunidad Valenciana",
-            "publicación": [
-                "DOCV",
-                "2015-09-09"
-            ],
-            "vigencia": "vigente",
             "claves": [
                 "comunidad valenciana",
                 "decreto",
@@ -952,21 +1376,30 @@
             "id": "docv-2018-51-d",
             "incluido": "2019-11-30",
             "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOCV",
+            "fecha": "2018-04-30",
+            "vigencia": "vigente",
             "descripción": "Currículo ESO y Bachillerato",
             "titulo": "Decreto 51/2018, de 27 de abril, del Consell, por el que se modifica el Decreto 87/2015, por el que establece el currículo y desarrolla la ordenación general de la educación secundaria obligatoria y del bachillerato en la Comunitat Valenciana.",
-            "documentos": [
+            "versiones": [
                 {
-                    "tipo": "original",
-                    "fichero": "docv/DOCV-2018-51-D-curriculo-eso-bachillerato.pdf",
-                    "web": "https://www.dogv.gva.es/es/eli/es-vc/d/2018/04/27/51/"
+                    "versión": "original",
+                    "fecha": "2018-04-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "docv/DOCV-2018-51-D-curriculo-eso-bachillerato.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2018/04/27/51/"
+                        }
+                    ]
                 }
             ],
-            "ámbito": "Comunidad Valenciana",
-            "publicación": [
-                "DOCV",
-                "2018-04-30"
-            ],
-            "vigencia": "vigente",
             "claves": [
                 "comunidad valenciana",
                 "decreto",

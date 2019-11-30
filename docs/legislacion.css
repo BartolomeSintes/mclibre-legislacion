@@ -42,11 +42,12 @@ footer {
 
 .disposicion .fichero {
   background-color: #eee;
+  font-size: 90%;
 }
 
 .disposicion .titulo {
   hyphens: auto;
   text-align: justify;
-  font-size: 90%;
+  font-size: 80%;
 }
 

@@ -45,40 +45,33 @@ def seccion(legislacion, id, titulo):
         tmp += f'        <h3>{elemento["descripción"]}</h3>\n'
         tmp += f'        <p class="publicacion">\n'
         tmp += f'          {bandera(elemento["ámbito"], 25)}\n'
-        tmp += f'          {elemento["publicación"][0]} {elemento["publicación"][1]}\n'
+        tmp += f'          {elemento["origen"]} {elemento["versiones"][0]["fecha"]}\n'
         if elemento["vigencia"] == gconst.DEROGADO:
             tmp += f'          <span class="derogado">derogado</span>\n'
         tmp += "        </p>\n"
-        if len(elemento["documentos"]) == 1:
+        for version in elemento["versiones"]:
             tmp += '        <p class="fichero">\n'
-            if elemento["documentos"][0]["fichero"] != "":
-                file = pathlib.Path(f'{gconst.DIR_SITE}/{gconst.DIR_FILES}/{elemento["documentos"][0]["fichero"]}')
-                weight = str(round(file.stat().st_size / 1024 / 1024, 1)) + " MB"
-                formato = file.suffix[1:].upper()
-                tmp += f'          <a href="{gconst.DIR_FILES}/{elemento["documentos"][0]["fichero"]}">{formato}</a> ({weight})'
-                if elemento["documentos"][0]["web"] != [""]:
+            if len(elemento["versiones"]) != 1:
+                tmp += f'        {version["versión"].capitalize()}: '
+            for i in range(len(version["enlaces"])):
+                if version["enlaces"][i]["formato"] != "web":
+                    file = pathlib.Path(f'{gconst.DIR_SITE}/{gconst.DIR_FILES}/{version["enlaces"][i]["url"]}')
+                    weight = str(round(file.stat().st_size / 1024 / 1024, 1)) + " MB"
+                    formato = file.suffix[1:].upper()
+                    if version["enlaces"][i]["idioma"] == "es":
+                        tmp += f'          <a href="{gconst.DIR_FILES}/{version["enlaces"][i]["url"]}" title="{weight}">{formato}</a>'
+                    else:
+                        tmp += f'          <a href="{gconst.DIR_FILES}/{version["enlaces"][i]["url"]}" title="{weight}">{formato}({version["enlaces"][i]["idioma"].upper()})</a>'
+                else:
+                    if version["enlaces"][i]["idioma"] == "es":
+                        tmp += f'          <a href="{version["enlaces"][i]["url"]}">web</a>'
+                    else:
+                        tmp += f'          <a href="{version["enlaces"][i]["url"]}">web({version["enlaces"][i]["idioma"].upper()})</a>'
+                if i < len(version["enlaces"]) - 1:
                     tmp += ' -\n'
                 else:
                     tmp += '\n'
-            if elemento["documentos"][0]["web"] != [""]:
-                tmp += f'          <a href="{elemento["documentos"][0]["web"]}">web</a>\n'
             tmp += "        </p>\n"
-        else:
-            for documento in elemento["documentos"]:
-                tmp += '        <p class="fichero">\n'
-                tmp += f'           {gconst.DOCUMENTOS_TIPOS[documento["tipo"]]}\n'
-                if documento["fichero"] != "":
-                    file = pathlib.Path(f'{gconst.DIR_SITE}/{gconst.DIR_FILES}/{documento["fichero"]}')
-                    weight = str(round(file.stat().st_size / 1024 / 1024, 1)) + " MB"
-                    formato = file.suffix[1:].upper()
-                    tmp += f'          <a href="{gconst.DIR_FILES}/{documento["fichero"]}">{formato}</a> ({weight})'
-                    if documento["web"] != [""]:
-                        tmp += ' -\n'
-                    else:
-                        tmp += '\n'
-                if documento["web"] != [""]:
-                    tmp += f'          <a href="{documento["web"]}">web</a>\n'
-                tmp += "        </p>\n"
         tmp += f'        <p class="titulo">{elemento["titulo"]}</p>\n'
         tmp += "      </article>\n"
         tmp += "\n"
@@ -146,12 +139,13 @@ def guarda_css():
     t += "\n"
     t += ".disposicion .fichero {\n"
     t += "  background-color: #eee;\n"
+    t += "  font-size: 90%;\n"
     t += "}\n"
     t += "\n"
     t += ".disposicion .titulo {\n"
     t += "  hyphens: auto;\n"
     t += "  text-align: justify;\n"
-    t += "  font-size: 90%;\n"
+    t += "  font-size: 80%;\n"
     t += "}\n"
     t += "\n"
 

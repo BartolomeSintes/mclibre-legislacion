@@ -4,7 +4,7 @@ import json
 def ordena(json, criterio):
     final = dict(json)
     final["legislacion"] = sorted(
-        final["legislacion"], key=lambda x: x[criterio][1], reverse=False
+        final["legislacion"], key=lambda x: x[criterio], reverse=False
     )
     return final
 

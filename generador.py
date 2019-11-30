@@ -8,7 +8,7 @@ def main():
     with open(gconst.FILE_JSON, encoding="utf-8") as file:
         FILE_JSON = json.load(file)
     legislacion = FILE_JSON["legislacion"]
-    legislacion = gjson.ordena(FILE_JSON, "publicación")
+    legislacion = gjson.ordena(FILE_JSON, "fecha")
     legislacion = legislacion["legislacion"]
 
     gweb.guarda_css()
