@@ -393,7 +393,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "docv/DOCV-2015-69-O-plantillas-secundaria.pdf"
+                            "url": "dogv/DOCV-2015-69-O-plantillas-secundaria.pdf"
                         },
                         {
                             "formato": "web",
@@ -408,12 +408,12 @@
                         {
                             "formato": "rtf",
                             "idioma": "es",
-                            "url": "docv/DOCV-2015-69-O-plantillas-secundaria-es.rtf"
+                            "url": "dogv/DOCV-2015-69-O-plantillas-secundaria-es.rtf"
                         },
                         {
                             "formato": "rtf",
                             "idioma": "va",
-                            "url": "docv/DOCV-2015-69-O-plantillas-secundaria-va.rtf"
+                            "url": "dogv/DOCV-2015-69-O-plantillas-secundaria-va.rtf"
                         }
                     ]
                 }
@@ -433,7 +433,7 @@
             "incluido": "2019-11-27",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOCV",
+            "origen": "DOGV",
             "fecha": "1997-09-08",
             "vigencia": "vigente",
             "descripción": "ROF Centros de secundaria (CV)",
@@ -446,7 +446,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "docv/DOCV-1997-09-08-D-rof-ies.pdf"
+                            "url": "dogv/DOGV-1997-09-08-D-rof-ies.pdf"
                         },
                         {
                             "formato": "web",
@@ -461,12 +461,12 @@
                         {
                             "formato": "rtf",
                             "idioma": "es",
-                            "url": "docv/DOCV-1997-09-08-D-rof-ies-es.rtf"
+                            "url": "dogv/DOGV-1997-09-08-D-rof-ies-es.rtf"
                         },
                         {
                             "formato": "rtf",
                             "idioma": "va",
-                            "url": "docv/DOCV-1997-09-08-D-rof-ies-va.rtf"
+                            "url": "dogv/DOGV-1997-09-08-D-rof-ies-va.rtf"
                         }
                     ]
                 },
@@ -477,7 +477,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "docv/DOCV-1997-09-08-D-rof-ies-consolidado-2012-08-06.pdf"
+                            "url": "dogv/DOGV-1997-09-08-D-rof-ies-consolidado-2012-08-06.pdf"
                         },
                         {
                             "formato": "web",
@@ -718,7 +718,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "docv/DOCV-2009-07-29-O-FP-SMR-curriculo.pdf"
+                            "url": "dogv/DOCV-2009-07-29-O-FP-SMR-curriculo.pdf"
                         },
                         {
                             "formato": "web",
@@ -733,12 +733,12 @@
                         {
                             "formato": "rtf",
                             "idioma": "es",
-                            "url": "docv/DOCV-2009-07-29-O-FP-SMR-curriculo-es.rtf"
+                            "url": "dogv/DOCV-2009-07-29-O-FP-SMR-curriculo-es.rtf"
                         },
                         {
                             "formato": "rtf",
                             "idioma": "va",
-                            "url": "docv/DOCV-2009-07-29-O-FP-SMR-curriculo-va.rtf"
+                            "url": "dogv/DOCV-2009-07-29-O-FP-SMR-curriculo-va.rtf"
                         }
                     ]
                 }
@@ -770,7 +770,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "docv/DOCV-2012-36-O_FP_ASIR_curriculo.pdf"
+                            "url": "dogv/DOCV-2012-36-O_FP_ASIR_curriculo.pdf"
                         },
                         {
                             "formato": "web",
@@ -785,12 +785,12 @@
                         {
                             "formato": "rtf",
                             "idioma": "es",
-                            "url": "docv/DOCV-2012-36-O_FP_ASIR_curriculo-es.rtf"
+                            "url": "dogv/DOCV-2012-36-O_FP_ASIR_curriculo-es.rtf"
                         },
                         {
                             "formato": "rtf",
                             "idioma": "va",
-                            "url": "docv/DOCV-2012-36-O_FP_ASIR_curriculo-va.rtf"
+                            "url": "dogv/DOCV-2012-36-O_FP_ASIR_curriculo-va.rtf"
                         }
                     ]
                 }
@@ -822,7 +822,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "docv/DOCV-2012-58-O-FP-DAM-curriculo.pdf"
+                            "url": "dogv/DOCV-2012-58-O-FP-DAM-curriculo.pdf"
                         },
                         {
                             "formato": "web",
@@ -837,12 +837,12 @@
                         {
                             "formato": "rtf",
                             "idioma": "es",
-                            "url": "docv/DOCV-2012-58-O-FP-DAM-curriculo-es.rtf"
+                            "url": "dogv/DOCV-2012-58-O-FP-DAM-curriculo-es.rtf"
                         },
                         {
                             "formato": "rtf",
                             "idioma": "va",
-                            "url": "docv/DOCV-2012-58-O-FP-DAM-curriculo-va.rtf"
+                            "url": "dogv/DOCV-2012-58-O-FP-DAM-curriculo-va.rtf"
                         }
                     ]
                 }
@@ -874,7 +874,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "docv/DOCV-2012-60-O-FP-DAW-curriculo.pdf"
+                            "url": "dogv/DOCV-2012-60-O-FP-DAW-curriculo.pdf"
                         },
                         {
                             "formato": "web",
@@ -889,12 +889,12 @@
                         {
                             "formato": "rtf",
                             "idioma": "es",
-                            "url": "docv/DOCV-2012-60-O-FP-DAW-curriculo-es.rtf"
+                            "url": "dogv/DOCV-2012-60-O-FP-DAW-curriculo-es.rtf"
                         },
                         {
                             "formato": "rtf",
                             "idioma": "va",
-                            "url": "docv/DOCV-2012-60-O-FP-DAW-curriculo-va.rtf"
+                            "url": "dogv/DOCV-2012-60-O-FP-DAW-curriculo-va.rtf"
                         }
                     ]
                 }
@@ -913,7 +913,7 @@
             "incluido": "2019-11-28",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOCV",
+            "origen": "DOGV",
             "fecha": "2019-05-03",
             "vigencia": "vigente",
             "descripción": "Inclusión (CV)",
@@ -926,7 +926,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "docv/DOCV-2019-20-O-inclusion.pdf"
+                            "url": "dogv/DOGV-2019-20-O-inclusion.pdf"
                         },
                         {
                             "formato": "web",
@@ -941,12 +941,12 @@
                         {
                             "formato": "rtf",
                             "idioma": "es",
-                            "url": "docv/DOCV-2019-20-O-inclusion-es.rtf"
+                            "url": "dogv/DOGV-2019-20-O-inclusion-es.rtf"
                         },
                         {
                             "formato": "rtf",
                             "idioma": "va",
-                            "url": "docv/DOCV-2019-20-O-inclusion-va.rtf"
+                            "url": "dogv/DOGV-2019-20-O-inclusion-va.rtf"
                         }
                     ]
                 }
@@ -1395,7 +1395,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "docv/DOCV-2015-87-D-curriculo-eso-bachillerato.pdf"
+                            "url": "dogv/DOCV-2015-87-D-curriculo-eso-bachillerato.pdf"
                         },
                         {
                             "formato": "web",
@@ -1410,12 +1410,12 @@
                         {
                             "formato": "rtf",
                             "idioma": "es",
-                            "url": "docv/DOCV-2015-87-D-curriculo-eso-bachillerato-es.rtf"
+                            "url": "dogv/DOCV-2015-87-D-curriculo-eso-bachillerato-es.rtf"
                         },
                         {
                             "formato": "rtf",
                             "idioma": "va",
-                            "url": "docv/DOCV-2015-87-D-curriculo-eso-bachillerato-va.rtf"
+                            "url": "dogv/DOCV-2015-87-D-curriculo-eso-bachillerato-va.rtf"
                         }
                     ]
                 },
@@ -1426,7 +1426,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "docv/DOCV-2015-87-D-curriculo-eso-bachillerato-consolidado-2018-04-30.pdf"
+                            "url": "dogv/DOCV-2015-87-D-curriculo-eso-bachillerato-consolidado-2018-04-30.pdf"
                         },
                         {
                             "formato": "web",
@@ -1463,7 +1463,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "docv/DOCV-2015-136-D-curriculo-eso-bachillerato.pdf"
+                            "url": "dogv/DOCV-2015-136-D-curriculo-eso-bachillerato.pdf"
                         },
                         {
                             "formato": "web",
@@ -1478,12 +1478,12 @@
                         {
                             "formato": "rtf",
                             "idioma": "es",
-                            "url": "docv/DOCV-2015-136-D-curriculo-eso-bachillerato-es.rtf"
+                            "url": "dogv/DOCV-2015-136-D-curriculo-eso-bachillerato-es.rtf"
                         },
                         {
                             "formato": "rtf",
                             "idioma": "va",
-                            "url": "docv/DOCV-2015-136-D-curriculo-eso-bachillerato-va.rtf"
+                            "url": "dogv/DOCV-2015-136-D-curriculo-eso-bachillerato-va.rtf"
                         }
                     ]
                 }
@@ -1502,7 +1502,7 @@
             "incluido": "2019-11-30",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
-            "origen": "DOCV",
+            "origen": "DOGV",
             "fecha": "2018-04-30",
             "vigencia": "vigente",
             "descripción": "Currículo ESO y Bachillerato",
@@ -1515,7 +1515,7 @@
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": "docv/DOCV-2018-51-D-curriculo-eso-bachillerato.pdf"
+                            "url": "dogv/DOGV-2018-51-D-curriculo-eso-bachillerato.pdf"
                         },
                         {
                             "formato": "web",
@@ -1530,12 +1530,12 @@
                         {
                             "formato": "rtf",
                             "idioma": "es",
-                            "url": "docv/DOCV-2018-51-D-curriculo-eso-bachillerato-es.rtf"
+                            "url": "dogv/DOGV-2018-51-D-curriculo-eso-bachillerato-es.rtf"
                         },
                         {
                             "formato": "rtf",
                             "idioma": "va",
-                            "url": "docv/DOCV-2018-51-D-curriculo-eso-bachillerato-va.rtf"
+                            "url": "dogv/DOGV-2018-51-D-curriculo-eso-bachillerato-va.rtf"
                         }
                     ]
                 }
@@ -1547,6 +1547,44 @@
                 "secundaria",
                 "eso",
                 "bachillerato"
+            ]
+        },
+        {
+            "id": "",
+            "incluido": "2019-12-01",
+            "modificado": "",
+            "ámbito": "",
+            "origen": "",
+            "fecha": "",
+            "vigencia": "vigente",
+            "descripción": "",
+            "titulo": "",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": ""
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": ""
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "ley orgánica",
+                "educación",
+                "ley",
+                "primaria",
+                "secundaria",
+                "formación profesional"
             ]
         }
     ]

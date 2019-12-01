@@ -8,7 +8,7 @@ Este repositorio contiene una colección legislativa de interés para profesores
 
 -   2019-11-26. Separar la información en varias páginas (europea, nacional, autonómica, borradores, informes, derogada, recién incluida, etc.).
 
--   2019-11-26. Validar el fichero json para que no tenga errores (ids duplicados, fechas incorrectas, etc.). Mirar si sirve https://json-schema.org/
+-   2019-11-26. Validar el fichero json para que no tenga errores (ids duplicados, fechas incorrectas, etc.). Mirar si sirve [json-schema.org](https://json-schema.org/)
 
 -   2019-11-26. Incluir un buscador para facilitar la consulta.
 
@@ -39,3 +39,5 @@ Este repositorio contiene una colección legislativa de interés para profesores
 ## Otros
 
 -   2019-11-30. Para localizar el permalink en los docv, escribir en google DOCV permalink ELI y el nombre de la referencia.
+
+-   2009-12-01. Comunidad Valenciana. El diario oficial se llamó DOCV entre 2007 y 2016 [ref](https://valenciaplaza.com/el-docv-recupera-la-denominacion-de-generalitat-valenciana-desde-manana). Hay que tener cuidado con los nombres de los ficheros.
