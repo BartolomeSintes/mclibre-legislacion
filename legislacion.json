@@ -429,7 +429,7 @@
             ]
         },
         {
-            "id": "docv-1997-234-d",
+            "id": "dogv-1997-234-d",
             "incluido": "2019-11-27",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
@@ -909,7 +909,7 @@
             ]
         },
         {
-            "id": "docv-2019-20-o",
+            "id": "dogv-2019-20-o",
             "incluido": "2019-11-28",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
@@ -1498,7 +1498,7 @@
             ]
         },
         {
-            "id": "docv-2018-51-d",
+            "id": "dogv-2018-51-d",
             "incluido": "2019-11-30",
             "modificado": "",
             "ámbito": "Comunidad Valenciana",
@@ -1550,41 +1550,111 @@
             ]
         },
         {
-            "id": "",
-            "incluido": "2019-12-01",
+            "id": "dogv-2019-07-05-res",
+            "incluido": "2019-12-02",
             "modificado": "",
-            "ámbito": "",
-            "origen": "",
-            "fecha": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2019-07-18",
             "vigencia": "vigente",
-            "descripción": "",
-            "titulo": "",
+            "descripción": "Inicio de curso Secundaria 19/20",
+            "titulo": "RESOLUCIÓN de 5 de julio de 2019, del secretario autonómico de Educación y Formación Profesional, por la que se aprueban las instrucciones para la organización y el funcionamiento de los centros que imparten Educación Secundaria Obligatoria y Bachillerato durante el curso 2019-2020",
             "versiones": [
                 {
                     "versión": "original",
-                    "fecha": "",
+                    "fecha": "2019-07-18",
                     "enlaces": [
                         {
                             "formato": "pdf",
                             "idioma": "es",
-                            "url": ""
+                            "url": "dogv/DOGV-2019-09-05-R-inicio-curso-secundaria-1920.pdf"
                         },
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": ""
+                            "url": "http://www.dogv.gva.es/portal/ficha_disposicion.jsp?L=1&sig=006772%2F2019"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/portal/ficha_disposicion.jsp?L=0&sig=006773%2F2019"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2019-09-05-R-inicio-curso-secundaria-1920-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2019-09-05-R-inicio-curso-secundaria-1920-va.rtf"
+                        }
+                    ]
+                },
+                {
+                    "versión": "correción",
+                    "fecha": "2019-07-19",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2019-09-05-R-CO-inicio-curso-secundaria-1920.pdf"
                         }
                     ]
                 }
             ],
             "claves": [
-                "españa",
-                "ley orgánica",
+                "comunidad valenciana",
+                "resolución",
                 "educación",
-                "ley",
-                "primaria",
                 "secundaria",
-                "formación profesional"
+                "inicio de curso"
+            ]
+        },
+        {
+            "id": "dogv-2019-07-15-res",
+            "incluido": "2019-12-02",
+            "modificado": "",
+            "ámbito": "Comunidad Valenciana",
+            "origen": "DOGV",
+            "fecha": "2019-07-15",
+            "vigencia": "vigente",
+            "descripción": "Inicio de curso FP 19/20",
+            "titulo": "RESOLUCIÓN de 8 de julio de 2019, del secretario autonómico de Educación y Formación Profesional, por la que se dictan instrucciones sobre ordenación académica y de organización de la actividad docente de los centros de la Comunitat Valenciana que durante el curso 2019-2020 impartan ciclos de Formación Profesional Básica, de grado medio y de grado superior.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2019-07-15",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2019-09-08-R-inicio-curso-fp-1920.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "http://www.dogv.gva.es/portal/ficha_disposicion.jsp?L=1&sig=006602%2F2019"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "http://www.dogv.gva.es/portal/ficha_disposicion.jsp?L=0&sig=006602%2F2019"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "dogv/DOGV-2019-09-08-R-inicio-curso-fp-1920-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "dogv/DOGV-2019-09-05-R-inicio-curso-secundaria-1920-va.rtf"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
             ]
         }
     ]

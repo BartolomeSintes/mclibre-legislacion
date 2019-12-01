@@ -45,7 +45,7 @@ def seccion(legislacion, id, titulo):
         tmp += f'        <h3>{elemento["descripción"]}</h3>\n'
         tmp += f'        <p class="publicacion">\n'
         tmp += f'          {bandera(elemento["ámbito"], 25)}\n'
-        tmp += f'          {elemento["origen"]} {elemento["versiones"][0]["fecha"]}\n'
+        tmp += f'          {elemento["origen"]} {elemento["fecha"]}\n'
         if elemento["vigencia"] == gconst.DEROGADO:
             tmp += f'          <span class="derogado">derogado</span>\n'
         tmp += "        </p>\n"
