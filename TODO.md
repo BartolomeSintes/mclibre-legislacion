@@ -34,6 +34,8 @@ Este repositorio contiene una colección legislativa de interés para profesores
 
 -   2019-11-30. He tenido que repetir la fecha de la referencia, en "fecha" para que ordene por fecha, y en "versiones"-"original" para que cada versión tenga fecha. No me acaba de buscar. Quizás podría hacer una función que extrajera la fecha de "original", pero no tengo claro si lo admitiría como criterio de ordenación (la función podría podría añadir ese dato al json en memoria y luego ordenar por él).
 
+-   2019-11-30. El texto consolidado de DOCV Decreto 87/2015 tiene varios anexos en pdf que en el original estaban incluidos en el pdf de la norma.
+
 ## Otros
 
 -   2019-11-30. Para localizar el permalink en los docv, escribir en google DOCV permalink ELI y el nombre de la referencia.

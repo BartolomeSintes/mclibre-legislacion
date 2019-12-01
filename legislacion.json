@@ -408,7 +408,7 @@
                         {
                             "formato": "rtf",
                             "idioma": "es",
-                            "url": "docv/DOCV-2015-69-O-plantillas-secundaria.rtf"
+                            "url": "docv/DOCV-2015-69-O-plantillas-secundaria-es.rtf"
                         },
                         {
                             "formato": "rtf",
@@ -436,7 +436,7 @@
             "origen": "DOCV",
             "fecha": "1997-09-08",
             "vigencia": "vigente",
-            "descripción": "ROF centros de secundaria",
+            "descripción": "ROF Centros de secundaria (CV)",
             "titulo": "Decreto 234/1997, de 2 de septiembre, del Gobierno Valenciano, por el que se aprueba el Reglamento orgánico y funcional de los institutos de educación secundaria.",
             "versiones": [
                 {
@@ -452,6 +452,21 @@
                             "formato": "web",
                             "idioma": "es",
                             "url": "https://www.dogv.gva.es/es/eli/es-vc/d/1997/09/02/234/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/va/eli/es-vc/d/1997/09/02/234/"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "docv/DOCV-1997-09-08-D-rof-ies-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "docv/DOCV-1997-09-08-D-rof-ies-va.rtf"
                         }
                     ]
                 },
@@ -468,6 +483,11 @@
                             "formato": "web",
                             "idioma": "es",
                             "url": "https://www.dogv.gva.es/es/eli/es-vc/d/1997/09/02/234/con/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/va/eli/es-vc/d/1997/09/02/234/con/"
                         }
                     ]
                 }
@@ -703,7 +723,22 @@
                         {
                             "formato": "web",
                             "idioma": "es",
-                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2009/07/29/(11)/"
+                            "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2009/07/29/(17)/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/va/eli/es-vc/o/2009/07/29/(17)/"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "docv/DOCV-2009-07-29-O-FP-SMR-curriculo-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "docv/DOCV-2009-07-29-O-FP-SMR-curriculo-va.rtf"
                         }
                     ]
                 }
@@ -741,6 +776,21 @@
                             "formato": "web",
                             "idioma": "es",
                             "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2012/06/22/36/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/va/eli/es-vc/o/2012/06/22/36/"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "docv/DOCV-2012-36-O_FP_ASIR_curriculo-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "docv/DOCV-2012-36-O_FP_ASIR_curriculo-va.rtf"
                         }
                     ]
                 }
@@ -778,6 +828,21 @@
                             "formato": "web",
                             "idioma": "es",
                             "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2012/09/05/58/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/va/eli/es-vc/o/2012/09/05/58/"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "docv/DOCV-2012-58-O-FP-DAM-curriculo-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "docv/DOCV-2012-58-O-FP-DAM-curriculo-va.rtf"
                         }
                     ]
                 }
@@ -815,6 +880,21 @@
                             "formato": "web",
                             "idioma": "es",
                             "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2012/09/25/60/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/va/eli/es-vc/o/2012/09/25/60/"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "docv/DOCV-2012-60-O-FP-DAW-curriculo-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "docv/DOCV-2012-60-O-FP-DAW-curriculo-va.rtf"
                         }
                     ]
                 }
@@ -852,6 +932,21 @@
                             "formato": "web",
                             "idioma": "es",
                             "url": "https://www.dogv.gva.es/es/eli/es-vc/o/2019/04/30/20/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/va/eli/es-vc/o/2019/04/30/20/"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "docv/DOCV-2019-20-O-inclusion-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "docv/DOCV-2019-20-O-inclusion-va.rtf"
                         }
                     ]
                 }
@@ -1306,6 +1401,21 @@
                             "formato": "web",
                             "idioma": "es",
                             "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2015/06/05/87/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/va/eli/es-vc/d/2015/06/05/87/"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "docv/DOCV-2015-87-D-curriculo-eso-bachillerato-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "docv/DOCV-2015-87-D-curriculo-eso-bachillerato-va.rtf"
                         }
                     ]
                 },
@@ -1359,6 +1469,21 @@
                             "formato": "web",
                             "idioma": "es",
                             "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2015/09/04/136/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/va/eli/es-vc/d/2015/09/04/136/"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "docv/DOCV-2015-136-D-curriculo-eso-bachillerato-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "docv/DOCV-2015-136-D-curriculo-eso-bachillerato-va.rtf"
                         }
                     ]
                 }
@@ -1396,6 +1521,21 @@
                             "formato": "web",
                             "idioma": "es",
                             "url": "https://www.dogv.gva.es/es/eli/es-vc/d/2018/04/27/51/"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "va",
+                            "url": "https://www.dogv.gva.es/va/eli/es-vc/d/2018/04/27/51/"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "es",
+                            "url": "docv/DOCV-2018-51-D-curriculo-eso-bachillerato-es.rtf"
+                        },
+                        {
+                            "formato": "rtf",
+                            "idioma": "va",
+                            "url": "docv/DOCV-2018-51-D-curriculo-eso-bachillerato-va.rtf"
                         }
                     ]
                 }
