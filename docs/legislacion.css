@@ -1,6 +1,6 @@
 html {
   font-family: sans-serif;
-  font-size: 110%;
+  font-size: 100%;
 }
 
 footer {
@@ -13,13 +13,13 @@ footer {
   text-transform: uppercase;
 }
 
-.disposiciones {
+div.disposiciones {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
 }
 
-.disposicion {
+article.disposicion {
   display: flex;
   flex-direction: column;
   flex: 0 1 300px;
@@ -28,26 +28,29 @@ footer {
   text-align: center;
 }
 
-.disposicion h3 {
+article.disposicion h3 {
   margin: 0;
   padding: 5px 10px;
   background-color: #eee;
   font-size: 100%;
 }
 
-.disposicion p {
+article.disposicion p {
   margin: 0;
   padding: 5px 10px;
 }
 
-.disposicion .fichero {
+article.disposicion .fichero {
   background-color: #eee;
   font-size: 90%;
 }
 
-.disposicion .titulo {
+article.disposicion .titulo {
   hyphens: auto;
   text-align: justify;
   font-size: 80%;
 }
 
+li.disposicion {
+  margin-top: 10px;
+}

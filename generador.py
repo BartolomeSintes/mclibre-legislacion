@@ -4,12 +4,12 @@ import gconst, gweb, gjson
 
 
 def main():
+    gweb.guarda_colecciones("Comunidad Valenciana")
+
     # Carga json
-    with open(gconst.FILE_JSON, encoding="utf-8") as file:
-        FILE_JSON = json.load(file)
-    legislacion = FILE_JSON["legislacion"]
-    legislacion = gjson.ordena(FILE_JSON, "fecha")
-    legislacion = legislacion["legislacion"]
+    with open(gconst.JSON_FILE_REFERENCES, encoding="utf-8") as file:
+        tmp = json.load(file)
+    legislacion = gjson.ordena(tmp, "fecha")["legislacion"]
 
     gweb.guarda_css()
 
@@ -18,6 +18,8 @@ def main():
     t += "\n"
     t += gweb.cabecera("Legislación de interés para profesores de informática")
 
+    t += '  <p><a href="lista.html">Versión en forma de lista</a></p>\n'
+    t += "\n"
     t += f"  <p>Esta web contiene actualmente {len(legislacion)} referencias legislativas.</p>\n"
     t += "\n"
 

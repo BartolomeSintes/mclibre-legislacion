@@ -1,6 +1,7 @@
 # Constantes utilziadas por el resto de módulos
 
-FILE_JSON = "legislacion.json"
+JSON_FILE_REFERENCES = "legislacion.json"
+JSON_FILE_COLLECTIONS = "colecciones.json"
 DEROGADO = "derogado"
 DIR_SITE = "docs"
 DIR_FILES = "files"
