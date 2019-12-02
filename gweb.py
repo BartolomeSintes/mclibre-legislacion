@@ -168,7 +168,7 @@ def muestra_referencia(elemento):
     tmp += f'          {elemento["origen"]} {elemento["fecha"]}</span>'
     if elemento["vigencia"] == gconst.DEROGADO:
         tmp += f' <span class="derogado">derogado</span>'
-    tmp += "</span>: \n"
+    tmp += ":\n"
     tmp += f'        <span class="titulo">{elemento["titulo"]}</span><br>\n'
     for version in elemento["versiones"]:
         tmp += '        <span class="fichero">\n'
