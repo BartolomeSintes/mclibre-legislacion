@@ -151,6 +151,7 @@ def guarda_css():
     t += "}\n"
     t += "\n"
     t += "li.disposicion {\n"
+    t += "  line-height: 130%;\n"
     t += "  margin-top: 10px;\n"
     t += "}\n"
 
@@ -164,16 +165,19 @@ def muestra_referencia(elemento):
     tmp += (
         f'        <strong class="descripcion">{elemento["descripción"]}</strong><br>\n'
     )
-    tmp += f'        <span class="publicacion">\n'
-    tmp += f'          {elemento["origen"]} {elemento["fecha"]}</span>'
-    if elemento["vigencia"] == gconst.DEROGADO:
-        tmp += f' <span class="derogado">derogado</span>'
-    tmp += ":\n"
     tmp += f'        <span class="titulo">{elemento["titulo"]}</span><br>\n'
+    if elemento["vigencia"] == gconst.DEROGADO:
+        tmp += f'        <span class="derogado">derogado</span><br>'
+    tmp += f'        <span class="publicacion">\n'
     for version in elemento["versiones"]:
         tmp += '        <span class="fichero">\n'
-        if len(elemento["versiones"]) != 1:
-            tmp += f'        {version["versión"].capitalize()}: '
+        if len(elemento["versiones"]) == 1:
+            tmp += f'          {elemento["origen"]} {elemento["fecha"]}</span>: '
+        elif version["versión"] == "original" or version["versión"] == "anexo" :
+            tmp += f'        {version["versión"].capitalize()}: {elemento["origen"]} {elemento["fecha"]}: '
+        else:
+            print(version)
+            tmp += f'        {version["versión"].capitalize()} ({version["fecha"]}): '
         for i in range(len(version["enlaces"])):
             if version["enlaces"][i]["formato"] != "web":
                 file = pathlib.Path(
@@ -218,6 +222,8 @@ def guarda_colecciones(nombre):
         t = ""
         t += cabecera(pagina["titulo"])
         t += '  <p><a href="index.html">Versión en forma de fichas</a></p>\n'
+        t += "\n"
+        t += f"  <p>Esta web contiene actualmente {len(legislacion)} referencias legislativas.</p>\n"
         t += "\n"
         for apartado in pagina["contenido"]:
             t += f'  <h2>{apartado["apartado"]["titulo"]}</h2>\n'
