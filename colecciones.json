@@ -50,6 +50,15 @@
                         },
                         {
                             "apartado": {
+                                "titulo": "Certificados de Profesionalidad",
+                                "referencias": [
+                                    "boe-2003-1506-rd",
+                                    "boe-2008-01-18-rd"
+                                ]
+                            }
+                        },
+                        {
+                            "apartado": {
                                 "titulo": "Currículos Secundaria y Bachillerato",
                                 "referencias": [
                                     "boe-2014-1105-rd",

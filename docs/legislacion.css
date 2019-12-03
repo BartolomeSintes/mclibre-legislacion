@@ -52,5 +52,6 @@ article.disposicion .titulo {
 }
 
 li.disposicion {
+  line-height: 130%;
   margin-top: 10px;
 }
