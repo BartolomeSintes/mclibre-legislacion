@@ -176,7 +176,6 @@ def muestra_referencia(elemento):
         elif version["versión"] == "original" or version["versión"] == "anexo" :
             tmp += f'        {version["versión"].capitalize()}: {elemento["origen"]} {elemento["fecha"]}: '
         else:
-            print(version)
             tmp += f'        {version["versión"].capitalize()} ({version["fecha"]}): '
         for i in range(len(version["enlaces"])):
             if version["enlaces"][i]["formato"] != "web":

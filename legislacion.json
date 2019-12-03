@@ -1963,6 +1963,297 @@
                 "formación professional",
                 "certificados profesionalidad"
             ]
+        },
+        {
+            "id": "boe-2014-817-rd",
+            "incluido": "2019-12-03",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2014-10-23",
+            "vigencia": "vigente",
+            "descripción": "Catálogo Cualificaciones Profesionales",
+            "titulo": "Real Decreto 817/2014, de 26 de septiembre, por el que se establecen los aspectos puntuales de las cualificaciones profesionales para cuya modificación, procedimiento de aprobación y efectos es de aplicación el artículo 7.3 de la Ley Orgánica 5/2002, de 19 de junio, de las Cualificaciones y de la Formación Profesional.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2014-10-23",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2014-817-RD-cualificaciones-profesionales.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2014/09/26/817"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "formación profesional",
+                "cualificaciones"
+            ]
+        },
+        {
+            "id": "boe-2007-1201-rd",
+            "incluido": "2019-12-03",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2007-09-27",
+            "vigencia": "vigente",
+            "descripción": "Catálogo Cualificaciones Profesionales",
+            "titulo": "Real Decreto 1201/2007, de 14 de septiembre, por el que se complementa el Catálogo Nacional de Cualificaciones Profesionales, mediante el establecimiento de ocho nuevas cualificaciones profesionales en la Familia Profesional Informática y Comunicaciones.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2007-09-27",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2007-1201-RD-cualificaciones-profesionales.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2007/09/14/1201"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "formación profesional",
+                "cualificaciones"
+            ]
+        },
+        {
+            "id": "boe-2007-1701-rd",
+            "incluido": "2019-12-03",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2008-01-05",
+            "vigencia": "vigente",
+            "descripción": "Catálogo Cualificaciones Profesionales",
+            "titulo": "Real Decreto 1701/2007, de 14 de diciembre, por el que se complementa el Catálogo Nacional de Cualificaciones Profesionales, mediante el establecimiento de seis cualificaciones profesionales correspondientes a la familia profesional informática y comunicaciones.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2008-01-05",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2007-1701-RD-cualificaciones-profesionales.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2007/12/14/1701"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "formación profesional",
+                "cualificaciones"
+            ]
+        },
+        {
+            "id": "boe-1994-1660-rd",
+            "incluido": "2019-12-03",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1994-09-30",
+            "vigencia": "derogado",
+            "descripción": "Decreto del Título de ASI",
+            "titulo": "Real Decreto 1660/1994, de 22 de julio, por el que se establece el título de Técnico superior en Administración de Sistemas Informáticos y las correspondientes enseñanzas mínimas.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1994-09-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1994-1660-RD-FP-ASI-titulo.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1994/07/22/1660"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "currículo",
+                "formación profesional",
+                "grado superior"
+            ]
+        },
+        {
+            "id": "boe-1994-1661-rd",
+            "incluido": "2019-12-03",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "1994-09-30",
+            "vigencia": "derogado",
+            "descripción": "Decreto del Título de DAI",
+            "titulo": "Real Decreto 1661/1994, de 22 de julio, por el que se establece el título de Técnico superior en Desarrollo de Aplicaciones Informáticas y las correspondientes enseñanzas mínimas.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "1994-09-30",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-1994-1661-RD-FP-DAI-titulo.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/1994/07/22/1661"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "currículo",
+                "formación profesional",
+                "grado superior"
+            ]
+        },
+        {
+            "id": "boe-2003-939-rd",
+            "incluido": "2019-12-03",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2003-08-12",
+            "vigencia": "derogado",
+            "descripción": "Decreto del Título de ESI",
+            "titulo": "Real Decreto 939/2003, de 18 de julio, por el que se establece el currículo del ciclo formativo de grado medio correspondiente al título de Técnico en Explotación de Sistemas Informáticos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2003-08-12",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2003-939-RD-FP-ESI-titulo.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2003/07/18/939"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "currículo",
+                "formación profesional",
+                "grado medio"
+            ]
+        },
+        {
+            "id": "boe-2007-900-rd",
+            "incluido": "2019-12-03",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2007-07-19",
+            "vigencia": "derogado",
+            "descripción": "Cualificaciones Profesionales de Informática",
+            "titulo": "Real Decreto 900/2007, de 6 de julio, por el que se crea el Comité para la definición del Marco Español de Cualificaciones para la Educación Superior.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2007-07-19",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2007-900-marco-espanol-cualificaciones.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2007/07/06/900"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "formación profesional",
+                "cualificaciones"
+            ]
+        },
+        {
+            "id": "boe-2011-776-rd",
+            "incluido": "2019-12-03",
+            "modificado": "",
+            "ámbito": "España",
+            "origen": "BOE",
+            "fecha": "2011-06-04",
+            "vigencia": "vigente",
+            "descripción": "Cualificaciones Profesionales de Informática",
+            "titulo": "Real Decreto 776/2011, de 3 de junio, por el que se suprimen determinados órganos colegiados y se establecen criterios para la normalización en la creación de órganos colegiados en la Administración General del Estado y sus Organismos Públicos.",
+            "versiones": [
+                {
+                    "versión": "original",
+                    "fecha": "2011-06-04",
+                    "enlaces": [
+                        {
+                            "formato": "pdf",
+                            "idioma": "es",
+                            "url": "boe/BOE-2011-776-RD-marco-espanol-cualificaciones.pdf"
+                        },
+                        {
+                            "formato": "web",
+                            "idioma": "es",
+                            "url": "https://www.boe.es/eli/es/rd/2011/06/03/776"
+                        }
+                    ]
+                }
+            ],
+            "claves": [
+                "españa",
+                "real decreto",
+                "educación",
+                "formación profesional",
+                "cualificaciones"
+            ]
         }
     ]
 }
