@@ -1,0 +1,352 @@
+/* Legislación informática                  */
+/* Bartolome Sintes Marco                   */
+/* http://www.mclibre.org                   */
+/*                                          */
+/* CSS recopilación de legislación          */
+/*                                          */
+/* 5 de diciembre de 2019                   */
+/*                                          */
+
+/* CSS comun */
+
+html {
+  background-color: white;
+  font-family: sans-serif;
+  line-height: 130%;
+  text-align: justify;
+}
+
+section {
+  clear: both;
+  border-top: solid 2px black;
+  margin-top: 1em;
+  padding-top: 0;
+}
+
+section section {
+  border-top: solid 1px black;
+}
+
+footer {
+  margin-top: 2em;
+}
+
+h1 {
+  font-size: 200%;
+  line-height: 120%;
+  text-align: center;
+}
+
+h2 {
+  font-size: 120%;
+}
+
+h3 {
+  font-size: 110%;
+}
+
+h4 {
+  font-size: 105%;
+  font-weight: bold;
+}
+
+h2, h3, h4 {
+  clear: both;
+}
+
+hr {
+  clear: both;
+}
+
+hr.corta {
+  clear: both;
+  width: 50%;
+}
+
+p {
+  margin: 10px 0;
+}
+
+p.aviso {
+  border-left: 2px red solid;
+  margin: 10px;
+  padding: 10px;
+  color:red;
+}
+
+p.ultmod {
+  clear: both;
+  border-top: black 2px solid;
+  margin-top: 1px;
+  padding-top: 2px;
+  text-align: left;
+}
+
+p.licencia {
+  text-align: left;
+}
+
+p.separador {
+  height: 10px;
+}
+
+p.inline-con-borde {
+  display: inline-block;
+  border: black 1px solid;
+  margin: 5px;
+  padding: 5px;
+}
+
+.mcl-centrado {
+  text-align: center;
+}
+
+.mcl-svg-diagrama-temporal {
+  text-align: center;
+}
+
+.mcl-svg-figura {
+  text-align: center;
+}
+
+.derecha {
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.izquierda {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+img.vmedio {
+  vertical-align: middle;
+}
+
+a img {
+  border: none;
+}
+
+.incompleto {
+  color: red;
+}
+
+.mcl-captura {
+  text-align: center;
+}
+
+.mcl-captura img, .mcl-captura svg {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.mcl-captura img, .mcl-captura svg, .mcl-captura iframe {
+  border: black 2px dotted;
+  padding: 5px;
+  vertical-align: middle;
+}
+
+.no-justificado {
+  text-align: left;
+}
+
+/* Pantallas estrechas */
+
+@media screen and (max-width: 768px) {
+  html {
+    margin-left: 40px;
+    margin-right: 5px;
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50px;
+    padding-left: 0.2em;
+    font-size: 80%;
+    text-align: left;
+  }
+
+  nav.portada {
+    position: static;
+  }
+
+  nav p {
+    margin: 5px 0 0;
+    font-size: 350%;
+  }
+
+  nav a {
+    color: black;
+    text-decoration: none;
+  }
+
+  nav div.toc {
+    display: none;
+  }
+
+}
+
+/* Pantallas anchas */
+
+@media screen and (min-width: 768px) {
+  html {
+    margin-left: 12em;
+    margin-right: 1em;
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 14.5em;
+    padding-left: 0.2em;
+    font-size: 80%;
+    text-align: left;
+  }
+
+  nav h2 {
+    margin: 0;
+    padding: 1em 0 0;
+    font-size: 110%;
+    text-align: left;
+  }
+
+  nav h3 {
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 105%;
+    text-align: left;
+  }
+
+  nav p {
+    margin: 5px 0 0;
+    font-size: 350%;
+  }
+
+  nav a {
+    color: black;
+    text-decoration: none;
+  }
+
+  nav ul {
+    margin-top: 0;
+    padding-left: 1em;
+  }
+
+  nav ol {
+    margin-top: 0;
+    padding-left: 2em;
+  }
+
+  nav ul li, nav ol li {
+    margin: 0 0 0.1em 0.1em;
+  }
+
+  nav ul ul {
+    margin: 0;
+    padding-left: 0.5em;
+  }
+
+  nav ul ol {
+    margin: 0;
+    padding-left: 1em;
+  }
+
+  nav ul ul li, nav ol ol li {
+    margin: 0;
+  }
+}
+
+/* Impresora */
+
+@media print {
+  html {
+    margin-left: 5px;
+    margin-right: 0;
+    margin-top: 0;
+  }
+
+  nav {
+    display: none;
+  }
+
+  div.icono-enlace {
+    display: none;
+  }
+
+  code {
+    font-size: 100% !important;
+  }
+
+  pre {
+    white-space: pre-wrap !important;
+  }
+
+  tr {
+    page-break-inside: avoid;
+  }
+
+  .noprint {
+    display: none
+  }
+}
+
+
+
+footer {
+  border-top: black 1px solid;
+  padding-top: 5px;
+}
+
+.derogado {
+  color: red;
+  text-transform: uppercase;
+}
+
+div.disposiciones {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+article.disposicion {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 300px;
+  margin: 5px;
+  border: black 1px solid;
+  text-align: center;
+}
+
+article.disposicion h3 {
+  margin: 0;
+  padding: 5px 10px;
+  background-color: #eee;
+  font-size: 100%;
+}
+
+article.disposicion p {
+  margin: 0;
+  padding: 5px 10px;
+}
+
+article.disposicion .fichero {
+  background-color: #eee;
+  font-size: 90%;
+}
+
+article.disposicion .titulo {
+  hyphens: auto;
+  text-align: justify;
+  font-size: 80%;
+}
+
+li.disposicion {
+  line-height: 130%;
+  margin-top: 10px;
+}
