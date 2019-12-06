@@ -11,4 +11,4 @@ Los textos legales se ofrecen en varios formatos:
 
 En algunos casos se ofrece también la versión consolidada de la norma.
 
-Este repositorio se encuentra disponible en la web http://www.mclibre.org/consultar/legislacion(http://www.mclibre.org/consultar/legislacion)
+Este repositorio se encuentra disponible en la web http://www.mclibre.org/consultar/legislacion
